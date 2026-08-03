@@ -489,7 +489,7 @@ static const u8 *const sMalePresetNames[] = {
     COMPOUND_STRING("Kristoffer"),
     COMPOUND_STRING("Kristof"),
     COMPOUND_STRING("Khristos"),
-    COMPOUND_STRING("Khristofor"),
+    COMPOUND_STRING("Khristoffor"),
     COMPOUND_STRING("Crisdean"),
     COMPOUND_STRING("Khristophoros"),
     COMPOUND_STRING("Criostoir"),
