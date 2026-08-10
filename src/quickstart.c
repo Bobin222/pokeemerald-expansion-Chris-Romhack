@@ -80,7 +80,7 @@ static void CB2_SkipToNewGame(void)
     static const u8 sText_Rival[] = _("BLUE");
 #else
     static const u8 sText_PlayerMale[] = _("CHRIS");
-    static const u8 sText_PlayerFemale[] = _("COURTNEY");
+    static const u8 sText_PlayerFemale[] = _("COURTNY");
 #endif  // IS_FRLG
 
     if (!UpdatePaletteFade())
