@@ -700,8 +700,8 @@ PetalburgCity_EventScript_GymBoy::
 
 PetalburgCity_EventScript_CheckShowWallyBlock::
 	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, PetalburgCity_EventScript_CheckShowWallyBlock_End
-	goto_if_set FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK, PetalburgCity_EventScript_CheckShowWallyBlock_End
-	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK
+	goto_if_set FLAG_DEFEATED_WALLY_PETALBURG, PetalburgCity_EventScript_CheckShowWallyBlock_End
+	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY
 PetalburgCity_EventScript_CheckShowWallyBlock_End:
 	return
 
@@ -709,7 +709,7 @@ PetalburgCity_EventScript_WallyGymBlock::
 	lock
 	faceplayer
 	msgbox PetalburgCity_Text_WallyGymBlockPreBattle, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_WALLY_PETALBURG_GYM_BLOCK, PetalburgCity_Text_WallyGymBlockDefeat
+	trainerbattle_no_intro TRAINER_WALLY_PETALBURG, PetalburgCity_Text_WallyGymBlockDefeat
 	msgbox PetalburgCity_Text_WallyGymBlockPostBattle, MSGBOX_DEFAULT
 	applymovement LOCALID_PETALBURG_WALLY_GYM_BLOCK, PetalburgCity_Movement_WallyWalkAway
 	waitmovement 0
