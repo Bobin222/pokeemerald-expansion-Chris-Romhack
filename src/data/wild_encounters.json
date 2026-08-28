@@ -700,7 +700,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_WATTREL"
+                "species": "SPECIES_WINGULL"
               },
               {
                 "min_level": 2,
@@ -2729,7 +2729,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_MORELULL"
+                "species": "SPECIES_PANCHAM"
               },
               {
                 "min_level": 7,
