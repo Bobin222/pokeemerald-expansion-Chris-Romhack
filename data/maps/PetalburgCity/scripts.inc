@@ -9,6 +9,7 @@ PetalburgCity_OnTransition:
 	call_if_eq VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_EventScript_SetGymDoorsUnlocked
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK
 	call_if_set FLAG_BADGE04_GET, PetalburgCity_EventScript_CheckShowWallyBlock
 	end
 
@@ -747,7 +748,16 @@ PetalburgCity_Text_WallyGymBlockDefeat:
 	.string "Thanks {PLAYER}, I learned a lot!$"
 
 PetalburgCity_Text_WallyGymBlockPostBattle:
-	.string "WALLY: Good luck against our\n"
+	.string "I really… like battling.\p"
+	.string "I was scared at first, but it\n"
+	.string "makes me feel better, and now\l"
+	.string "I want to get better at it!\p"
+	.string "Anyway, thanks again for the\n"
+	.string "battle, {PLAYER}. I want to\p"
+	.string "take some time and really hone\n"
+	.string "my team. Maybe I'll see you\p"
+	.string "again later on.\p"
+	.string "Oh, and good luck against our\n"
 	.string "grandfather!$"
 
 PetalburgCity_Text_WhereIsWally:
