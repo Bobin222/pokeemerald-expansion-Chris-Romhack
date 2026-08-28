@@ -1,0 +1,8 @@
+arm-none-eabi-ld: warning: ../../pokeemerald.elf has a LOAD segment with RWX permissions
+arm-none-eabi-ld: data/event_scripts.o: in function `PetalburgCity_OnTransition':
+(script_data+0xe23): undefined reference to `PetalburgCity_EventScript_CheckShowWallyBlock'
+Memory region         Used Size  Region Size  %age Used
+           EWRAM:      226588 B       256 KB     86.44%
+           IWRAM:       28392 B        32 KB     86.65%
+             ROM:    26524876 B        32 MB     79.05%
+make: *** [Makefile:582: pokeemerald.elf] Error 1
