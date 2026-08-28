@@ -750,22 +750,6 @@ PetalburgCity_Text_WallyGymBlockPostBattle:
 	.string "WALLY: Good luck against our\n"
 	.string "grandfather!$"
 
-PetalburgCity_Text_WallyGymBlockPreBattle:
-	.string "WALLY: Hey {PLAYER}! I'm really\n"
-	.string "starting to get the hang of this\l"
-	.string "battling stuff!\p"
-	.string "Whoa, you already have four\n"
-	.string "badges, that's awesome! Battle me\l"
-	.string "so I can see what a real pro can do!$"
-
-PetalburgCity_Text_WallyGymBlockDefeat:
-	.string "WALLY: Wow, you're really strong!\p"
-	.string "Thanks {PLAYER}, I learned a lot!$"
-
-PetalburgCity_Text_WallyGymBlockPostBattle:
-	.string "WALLY: Good luck against our\n"
-	.string "grandfather!$"
-
 PetalburgCity_Text_WhereIsWally:
 	.string "Where has our RYAN gone?\p"
 	.string "We have to leave for VERDANTURF TOWN\n"
