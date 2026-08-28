@@ -1,0 +1,45 @@
+script PetalburgCity_EventScript_CheckShowWallyBlock {
+    if (flag(FLAG_DEFEATED_PETALBURG_GYM) || flag(FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK)) {
+        return
+    }
+    clearflag(FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK)
+    return
+}
+
+script PetalburgCity_EventScript_WallyGymBlock {
+    lock
+    faceplayer
+    msgbox(PetalburgCity_Text_WallyGymBlockPreBattle)
+    trainerbattle_no_intro(TRAINER_WALLY_PETALBURG_GYM_BLOCK, PetalburgCity_Text_WallyGymBlockDefeat)
+    msgbox(PetalburgCity_Text_WallyGymBlockPostBattle)
+    applymovement(LOCALID_PETALBURG_WALLY_GYM_BLOCK, PetalburgCity_Movement_WallyWalkAway)
+    waitmovement(0)
+    removeobject(LOCALID_PETALBURG_WALLY_GYM_BLOCK)
+    setflag(FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK)
+    setflag(FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK)
+    release
+}
+
+movement PetalburgCity_Movement_WallyWalkAway {
+    walk_left
+    walk_down
+    walk_down
+    walk_right
+    walk_down
+    walk_down
+    walk_down
+    walk_down
+    walk_down
+}
+
+text PetalburgCity_Text_WallyGymBlockPreBattle {
+    format("WALLY: Hey {PLAYER}! I'm really starting to get the hang of this battling stuff! Whoa you already have four badges, that's awesome! Battle me so I can see what a real pro can do!")
+}
+
+text PetalburgCity_Text_WallyGymBlockDefeat {
+    format("WALLY: Wow, you're really strong!\p Thanks {PLAYER}, I learned a lot!")
+}
+
+text PetalburgCity_Text_WallyGymBlockPostBattle {
+    format("WALLY: Good luck against your grandfather!")
+}
