@@ -756,7 +756,7 @@ PetalburgCity_Text_WallyGymBlockPostBattle:
 	.string "battle, {PLAYER}. I want to\p"
 	.string "take some time and really hone\n"
 	.string "my team. Maybe I'll see you\p"
-	.string "again later on.\p"
+	.string "again someday.\p"
 	.string "Oh, and good luck against our\n"
 	.string "grandfather!$"
 
