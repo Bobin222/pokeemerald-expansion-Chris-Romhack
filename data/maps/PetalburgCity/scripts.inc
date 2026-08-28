@@ -9,7 +9,7 @@ PetalburgCity_OnTransition:
 	call_if_eq VAR_PETALBURG_CITY_STATE, 2, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_EventScript_SetGymDoorsUnlocked
-	call_if_set FLAG_BADGE04_GET, PetalburgCity_EventScript_CheckShowWallyBlock       @ <-- new line goes here
+	call_if_set FLAG_BADGE04_GET, PetalburgCity_EventScript_CheckShowWallyBlock
 	end
 
 PetalburgCity_EventScript_MoveGymBoyToWestEntrance::
@@ -699,10 +699,8 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_EventScript_CheckShowWallyBlock::
-	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, 
-PetalburgCity_EventScript_CheckShowWallyBlock_End
-	goto_if_set FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK, 
-PetalburgCity_EventScript_CheckShowWallyBlock_End
+	goto_if_set FLAG_DEFEATED_PETALBURG_GYM, PetalburgCity_EventScript_CheckShowWallyBlock_End
+	goto_if_set FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK, PetalburgCity_EventScript_CheckShowWallyBlock_End
 	clearflag FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK
 PetalburgCity_EventScript_CheckShowWallyBlock_End:
 	return
@@ -711,11 +709,9 @@ PetalburgCity_EventScript_WallyGymBlock::
 	lock
 	faceplayer
 	msgbox PetalburgCity_Text_WallyGymBlockPreBattle, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_WALLY_PETALBURG_GYM_BLOCK, 
-PetalburgCity_Text_WallyGymBlockDefeat
+	trainerbattle_no_intro TRAINER_WALLY_PETALBURG_GYM_BLOCK, PetalburgCity_Text_WallyGymBlockDefeat
 	msgbox PetalburgCity_Text_WallyGymBlockPostBattle, MSGBOX_DEFAULT
-	applymovement LOCALID_PETALBURG_WALLY_GYM_BLOCK, 
-PetalburgCity_Movement_WallyWalkAway
+	applymovement LOCALID_PETALBURG_WALLY_GYM_BLOCK, PetalburgCity_Movement_WallyWalkAway
 	waitmovement 0
 	removeobject LOCALID_PETALBURG_WALLY_GYM_BLOCK
 	setflag FLAG_DEFEATED_WALLY_PETALBURG_GYM_BLOCK
@@ -737,6 +733,22 @@ PetalburgCity_Movement_WallyWalkAway:
 	walk_down
 	walk_down
 	step_end
+
+PetalburgCity_Text_WallyGymBlockPreBattle:
+	.string "WALLY: Hey {PLAYER}! I'm really\n"
+	.string "starting to get the hang of this\l"
+	.string "battling stuff!\p"
+	.string "Whoa, you already have four\n"
+	.string "badges, that's awesome! Battle me\l"
+	.string "so I can see what a real pro can do!$"
+
+PetalburgCity_Text_WallyGymBlockDefeat:
+	.string "WALLY: Wow, you're really strong!\p"
+	.string "Thanks {PLAYER}, I learned a lot!$"
+
+PetalburgCity_Text_WallyGymBlockPostBattle:
+	.string "WALLY: Good luck against our\n"
+	.string "grandfather!$"
 
 PetalburgCity_Text_WallyGymBlockPreBattle:
 	.string "WALLY: Hey {PLAYER}! I'm really\n"
