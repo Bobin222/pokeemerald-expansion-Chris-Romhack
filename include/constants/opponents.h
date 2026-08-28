@@ -661,6 +661,7 @@
 #define TRAINER_FLINT                       654
 #define TRAINER_ASHLEY                      655
 #define TRAINER_WALLY_MAUVILLE              656
+#define TRAINER_WALLY_PETALBURG             855
 #define TRAINER_WALLY_VR_2                  657
 #define TRAINER_WALLY_VR_3                  658
 #define TRAINER_WALLY_VR_4                  659
@@ -864,7 +865,7 @@
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT_EMERALD     855
+#define TRAINERS_COUNT_EMERALD     856
 #define MAX_TRAINERS_COUNT_EMERALD 864
 
 #if IS_FRLG
