@@ -29,6 +29,10 @@ OldaleTown_EventScript_TownSign::
 	msgbox OldaleTown_Text_TownSign, MSGBOX_SIGN
 	end
 
+OldaleTown_EventScript_ShopSign::
+	msgbox OldaleTown_Text_ShopSign, MSGBOX_SIGN
+	end
+
 OldaleTown_EventScript_Girl::
 	msgbox OldaleTown_Text_SavingMyProgress, MSGBOX_NPC
 	end
@@ -394,4 +398,8 @@ OldaleTown_Text_BrendanLetsGoBack:
 OldaleTown_Text_TownSign:
 	.string "OLDALE TOWN\n"
 	.string "“Where things start off scarce.”$"
+
+OldaleTown_Text_ShopSign:
+	.string "NEW DEVONCORP TRAINER SHOP\n"
+	.string "Rare and wonderful items!$"
 
