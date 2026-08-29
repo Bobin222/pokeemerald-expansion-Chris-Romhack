@@ -1740,3 +1740,4 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/scripts/wild_encounter.inc"
 
 	.include "data/maps/OldaleTown_House3/scripts.inc"
+	.include "data/maps/OldaleTown_House3/rare_merchant.inc"
