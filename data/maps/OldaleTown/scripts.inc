@@ -401,5 +401,5 @@ OldaleTown_Text_TownSign:
 
 OldaleTown_Text_ShopSign:
 	.string "NEW DEVONCORP TRAINER SHOP\n"
-	.string "Rare and wonderful items!$"
+	.string "“Rare and wonderful items!”$"
 

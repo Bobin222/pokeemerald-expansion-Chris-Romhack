@@ -4312,7 +4312,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_MUDSDALE"
+                "species": "SPECIES_BOUFFALANT"
               },
               {
                 "min_level": 36,
@@ -4322,7 +4322,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_MUDSDALE"
+                "species": "SPECIES_BOUFFALANT"
               }
             ]
           }
@@ -5557,7 +5557,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_ARROKUDA"
               },
               {
                 "min_level": 10,
@@ -5567,12 +5567,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_ARROKUDA"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_ARROKUDA"
+                "species": "SPECIES_BRUXISH"
               },
               {
                 "min_level": 25,
@@ -5592,7 +5592,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_TENTACRUEL"
+                "species": "SPECIES_BRUXISH"
               },
               {
                 "min_level": 40,
@@ -5646,7 +5646,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_WISHIWASHI"
               },
               {
                 "min_level": 10,
@@ -5656,12 +5656,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_WISHIWASHI"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WISHIWASHI"
+                "species": "SPECIES_BRUXISH"
               },
               {
                 "min_level": 25,
@@ -5681,7 +5681,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_TENTACRUEL"
+                "species": "SPECIES_BRUXISH"
               },
               {
                 "min_level": 40,
