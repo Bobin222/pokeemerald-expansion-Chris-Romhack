@@ -835,6 +835,10 @@ Flabebe
 Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
+Budew
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 === TRAINER_ROSE_1 ===
 Name: ROSE
 Class: Aroma Lady
@@ -2381,11 +2385,14 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
+Skwovet @ Oran Berry
+Level: 11
+Ability: Cheek Pouch
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 Zigzagoon @ Nugget
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Tail Whip
 
 === TRAINER_BRIANNA ===
 Name: BRIANNA
@@ -2425,8 +2432,13 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Linoone @ Nugget
+Greedent @ Sitrus Berry
 Level: 27
+Ability: Cheek Pouch
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Zigzagoon @ Nugget
+Level: 25
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_CINDY_4 ===
@@ -2438,6 +2450,12 @@ Music: Female
 Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
+
+Greedent @ Sitrus Berry
+Level: 30
+Ability: Cheek Pouch
+IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+- Stuff Cheeks
 
 Linoone @ Nugget
 Level: 30
@@ -2453,6 +2471,12 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
+Greedent @ Sitrus Berry
+Level: 33
+Ability: Cheek Pouch
+IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+- Stuff Cheeks
+
 Linoone @ Nugget
 Level: 33
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
@@ -2467,10 +2491,18 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
+Greedent @ Sitrus Berry
+Level: 38
+Ability: Cheek Pouch
+IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+- Stuff Cheeks
+- Super Fang
+- Body Slam
+
 Linoone @ Nugget
 Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-- Fury Swipes
+- Slash
 - Mud Sport
 - Odor Sleuth
 - Sand Attack
@@ -5739,7 +5771,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Skwovet @ Oran Berry
-Level: 20
+Level: 21
 IVs: 0 HP / 12 Atk / 12 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_COLTON ===
@@ -6189,7 +6221,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 6
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikipek
@@ -6442,11 +6474,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
-Level: 4
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rookidee
-Level: 4
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TIMMY ===
@@ -6535,15 +6567,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Poliwag
-Level: 19
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wooper Paldea
-Level: 19
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tympole
-Level: 19
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_IVAN ===
@@ -11385,11 +11417,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Skwovet @ Oran Berry
-Level: 4
+Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Teddiursa
-Level: 4
+Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HALEY_1 ===
@@ -13483,7 +13515,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Voltorb Hisui
-Level: 15
+Level: 20
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Pikachu
+Level: 20
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Klink
+Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_RHETT ===
@@ -13496,6 +13536,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Pancham
+Level: 21
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Mienfoo
 Level: 21
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
