@@ -54,7 +54,9 @@
     F(OVERHEAT) \
     F(STEALTH_ROCK) \
     F(THUNDER_WAVE) \
-    F(SOLAR_BLADE)
+    F(SOLAR_BLADE) \
+    F(ENERGY_BALL) \
+    F(LEAF_BLADE)
 
 #define FOREACH_HM(F) \
     F(CUT) \
