@@ -35,12 +35,12 @@
     F(BRICK_BREAK) \
     F(DRAIN_PUNCH) \
     F(REFLECT) \
-    F(SHOCK_WAVE) \
+    F(BODY_PRESS) \
     F(FLAMETHROWER) \
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
     F(FIRE_BLAST) \
-    F(ROCK_TOMB) \
+    F(LIQUIDATION) \
     F(AERIAL_ACE) \
     F(TORMENT) \
     F(FACADE) \
@@ -51,7 +51,8 @@
     F(STEEL_WING) \
     F(SKILL_SWAP) \
     F(SNATCH) \
-    F(OVERHEAT)
+    F(OVERHEAT) \
+    F(STEALTH_ROCK)
 
 #define FOREACH_HM(F) \
     F(CUT) \
