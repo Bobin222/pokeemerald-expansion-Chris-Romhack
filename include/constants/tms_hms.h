@@ -53,7 +53,8 @@
     F(AIR_SLASH) \
     F(OVERHEAT) \
     F(STEALTH_ROCK) \
-    F(THUNDER_WAVE)
+    F(THUNDER_WAVE) \
+    F(SOLAR_BLADE)
 
 #define FOREACH_HM(F) \
     F(CUT) \
