@@ -56,7 +56,52 @@
     F(THUNDER_WAVE) \
     F(SOLAR_BLADE) \
     F(ENERGY_BALL) \
-    F(LEAF_BLADE)
+    F(LEAF_BLADE) \
+    F(GRASSY_TERRAIN) \
+    F(POISON_JAB) \
+    F(VENOSHOCK) \
+    F(SUPERCELL_SLAM) \
+    F(AURA_SPHERE) \
+    F(ELECTRIC_TERRAIN) \
+    F(EARTH_POWER) \
+    F(ZEN_HEADBUTT) \
+    F(PSYCHO_CUT) \
+    F(TRICK_ROOM) \
+    F(PSYCHIC_TERRAIN) \
+    F(STONE_EDGE) \
+    F(POWER_GEM) \
+    F(ROCK_SLIDE) \
+    F(ROLLOUT) \
+    F(SUBSTITUTE) \
+    F(ICICLE_CRASH) \
+    F(SWORDS_DANCE) \
+    F(X_SCISSOR) \
+    F(BUG_BUZZ) \
+    F(SIGNAL_BEAM) \
+    F(FURY_CUTTER) \
+    F(DRAGON_PULSE) \
+    F(DRAGON_DANCE) \
+    F(SHADOW_CLAW) \
+    F(PHANTOM_FORCE) \
+    F(HEX) \
+    F(CURSE) \
+    F(DARK_PULSE) \
+    F(CRUNCH) \
+    F(NIGHT_SLASH) \
+    F(KNOCK_OFF) \
+    F(NASTY_PLOT) \
+    F(TAILWIND) \
+    F(FLASH_CANNON) \
+    F(IRON_HEAD) \
+    F(HEAVY_SLAM) \
+    F(METAL_SOUND) \
+    F(DAZZLING_GLEAM) \
+    F(PLAY_ROUGH) \
+    F(DRAINING_KISS) \
+    F(CHARM) \
+    F(MISTY_TERRAIN) \
+    F(MOONBLAST) \
+    F(FREEZE_DRY)
 
 #define FOREACH_HM(F) \
     F(CUT) \
