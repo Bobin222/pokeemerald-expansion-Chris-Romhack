@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(GIGA_IMPACT) \
+ F(GIGA_IMPACT) \
     F(HYPER_BEAM) \
     F(HYPER_VOICE) \
     F(FACADE) \
@@ -44,6 +44,7 @@
     F(VENOSHOCK) \
     F(THUNDER) \
     F(SUPERCELL_SLAM) \
+    F(SECRET_POWER) \
     F(THUNDERBOLT) \
     F(WILD_CHARGE) \
     F(THUNDER_WAVE) \
@@ -60,7 +61,6 @@
     F(TRICK_ROOM) \
     F(PSYCHIC_TERRAIN) \
     F(STONE_EDGE) \
-    F(METEOR_BEAM) \
     F(POWER_GEM) \
     F(ROCK_SLIDE) \
     F(STEALTH_ROCK) \
@@ -102,7 +102,7 @@
     F(CHARM) \
     F(MISTY_TERRAIN) \
     F(MOONBLAST)
-    
+
 #define FOREACH_HM(F) \
     F(CUT) \
     F(FLY) \

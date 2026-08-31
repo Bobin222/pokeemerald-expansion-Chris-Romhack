@@ -12172,7 +12172,7 @@ const struct ItemInfo gItemsInfo[] =
         .name = ITEM_NAME("TM01"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "User charges at the\n
+            "User charges at the\n"
             "foe with full power,\n"
             "then must recharge."),
         .importance = I_REUSABLE_TMS,
