@@ -175,7 +175,7 @@ static const u16 *const sPrizeLists1[NUM_TRAINER_HILL_PRIZE_LISTS] =
     sPrizeListMaxRevive1,
     sPrizeListMaxEther1,
     sPrizeListElixir1,
-    sPrizeListRoar,
+    sPrizeListHyperVoice,
     sPrizeListSludgeBomb,
     sPrizeListToxic,
     sPrizeListSunnyDay,
