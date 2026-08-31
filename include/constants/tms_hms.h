@@ -46,11 +46,11 @@
     F(FACADE) \
     F(SECRET_POWER) \
     F(REST) \
-    F(ATTRACT) \
+    F(BRAVE_BIRD) \
     F(THIEF) \
-    F(STEEL_WING) \
+    F(HURRICANE) \
     F(SKILL_SWAP) \
-    F(SNATCH) \
+    F(AIR_SLASH) \
     F(OVERHEAT) \
     F(STEALTH_ROCK) \
     F(THUNDER_WAVE)
