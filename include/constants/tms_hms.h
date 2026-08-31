@@ -52,7 +52,8 @@
     F(SKILL_SWAP) \
     F(SNATCH) \
     F(OVERHEAT) \
-    F(STEALTH_ROCK)
+    F(STEALTH_ROCK) \
+    F(THUNDER_WAVE)
 
 #define FOREACH_HM(F) \
     F(CUT) \
