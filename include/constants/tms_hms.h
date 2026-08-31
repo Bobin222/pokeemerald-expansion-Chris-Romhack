@@ -24,11 +24,11 @@
     F(RAGING_FURY) \
     F(BLAZE_KICK) \
     F(SOLAR_BEAM) \
-    F(IRON_TAIL) \
+    F(CLOSE_COMBAT) \
     F(THUNDERBOLT) \
     F(THUNDER) \
     F(EARTHQUAKE) \
-    F(RETURN) \
+    F(FOCUS_BLAST) \
     F(DIG) \
     F(PSYCHIC) \
     F(SHADOW_BALL) \
