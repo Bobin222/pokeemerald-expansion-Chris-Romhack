@@ -13282,7 +13282,7 @@ const struct ItemInfo gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A dance that boosts\n"
             "the user's Attack and\n"
-            "Speed stats."Z),
+            "Speed stats."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
