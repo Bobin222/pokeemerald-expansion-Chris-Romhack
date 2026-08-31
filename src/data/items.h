@@ -13562,7 +13562,7 @@ const struct ItemInfo gItemsInfo[] =
         .description = COMPOUND_STRING(
             "Blast from the moon\n"
             "that may lower the\n"
-            "foe's Sp. Atk."
+            "foe's Sp. Atk."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
