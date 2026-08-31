@@ -10,8 +10,8 @@
     F(TOXIC) \
     F(SNOWSCAPE) \
     F(BULK_UP) \
-    F(BULLET_SEED) \
-    F(HIDDEN_POWER) \
+    F(WORK_UP) \
+    F(BATON_PASS) \
     F(SUNNY_DAY) \
     F(TAUNT) \
     F(ICE_BEAM) \

@@ -19,7 +19,7 @@ FortreeCity_House2_EventScript_HiddenPowerGiver::
 	switch VAR_RESULT
 	case 0, FortreeCity_House2_EventScript_WrongGuess
 	msgbox FortreeCity_House2_Text_YourHiddenPowerHasAwoken, MSGBOX_DEFAULT
-	giveitem ITEM_TM_HIDDEN_POWER
+	giveitem ITEM_TM_BATON_PASS
 	goto_if_eq VAR_RESULT, 0, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_HIDDEN_POWER
 	msgbox FortreeCity_House2_Text_ExplainHiddenPower, MSGBOX_DEFAULT
@@ -47,8 +47,8 @@ FortreeCity_House2_Text_HiddenPowersArousedByNature:
 	.string "living in natural environments…$"
 
 FortreeCity_House2_Text_CoinInWhichHand:
-	.string "Let this old woman see if your hidden\n"
-	.string "power has awoken…\p"
+	.string "Let this old woman see if you can\n"
+	.string "master the art of swapping…\p"
 	.string "I hold a coin in my hand.\p"
 	.string "Now, tell me, have I palmed it in\n"
 	.string "the right hand? Or in the left?$"
@@ -67,13 +67,13 @@ FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
 	.string "Oh! Splendid!\n"
-	.string "Your hidden power has awoken!\p"
+	.string "You've mastered swapping!\p"
 	.string "Here, take this and awaken the hidden\n"
-	.string "power of your POKéMON.$"
+	.string "power of swapping POKéMON.$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-	.string "HIDDEN POWER is a move that changes\n"
-	.string "with the POKéMON.$"
+	.string "BATON PASS is a move that passes\n"
+	.string "stat changes to the next Pokémon.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
 	.string "No, too bad.\n"
