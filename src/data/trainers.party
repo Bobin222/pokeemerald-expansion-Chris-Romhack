@@ -13093,21 +13093,33 @@ Items: Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Ogerpon Hearthflame
+Ogerpon @ Hearthflame Mask
 Level: 85
+Tera Type: Fire
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Ivy Cudgel
+- Wood Hammer
+- Throat Chop
+- Tera Blast
 
 Kingambit
 Level: 85
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Kowtow Cleave
+- Iron Head
 
 Palafin
 Level: 85
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flip Turn
 
-Zacian Crowned
+Zacian Hero @ Rusted Sword
 Level: 85
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Iron Head
+- Play Rough
+- Close Combat
+- Solar Blade
 
 Iron Valiant
 Level: 85
