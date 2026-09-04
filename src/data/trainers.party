@@ -17312,37 +17312,57 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Magcargo @ White Herb
-Level: 38
+Torkoal @ Heat Rock
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Ponyta
-Level: 36
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
+- Rapid Spin
+- Stealth Rock
+- Lava Plume
 - Solar Beam
-- Bounce
 
-Camerupt @ White Herb
-Level: 38
+Centiskorch @ Charti Berry
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
+- Fire Lash
+- Leech Life
+- Power Whip
+- Coil
 
-Torkoal @ White Herb
-Level: 40
+Tauros Paldea Blaze @ Muscle Band
+Level: 55
+Ability: Intimidate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
+- High Horsepower
+- Raging Bull
+- Close Combat
+- Wild Charge
+
+Arcanine Hisui @ Focus Sash
+Level: 55
+Ability: Iron Head
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+- Wild Charge
+
+Volcarona @ Charti Berry
+Level: 55
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quiver Dance
 - Sunny Day
-- Explosion
-- Attract
+- Flamethrower
+- Bug Buzz
+
+Scovillain @ Life Orb
+Level: 55
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Flamethrower
+- Spicy Extract
+- Giga Drain
 
 === TRAINER_FLANNERY_3 ===
 Name: FLANNERY
@@ -17354,45 +17374,60 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Growlithe
-Level: 41
+Torkoal @ Heat Rock
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
-- Flamethrower
-- Roar
-- Sunny Day
-
-Magcargo @ White Herb
-Level: 43
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Ponyta
-Level: 41
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
+- Rapid Spin
+- Stealth Rock
+- Lava Plume
 - Solar Beam
-- Bounce
 
-Camerupt @ White Herb
-Level: 43
+Centiskorch @ Charti Berry
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
+Dynamax Level: 10
+Gigantamax: Yes
+- Fire Lash
+- Leech Life
+- Power Whip
+- Coil
 
-Torkoal @ White Herb
-Level: 45
+Tauros Paldea Blaze @ Muscle Band
+Level: 65
+Ability: Intimidate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
+- High Horsepower
+- Raging Bull
+- Close Combat
+- Wild Charge
+
+Arcanine Hisui @ Focus Sash
+Level: 65
+Ability: Iron Head
+Tera Type: Fire
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+- Wild Charge
+
+Volcarona @ Charti Berry
+Level: 65
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Quiver Dance
 - Sunny Day
-- Explosion
-- Attract
+- Flamethrower
+- Bug Buzz
+
+Scovillain @ Scovillainite
+Level: 65
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Flamethrower
+- Spicy Extract
+- Zen Headbutt
 
 === TRAINER_FLANNERY_4 ===
 Name: FLANNERY
@@ -17404,53 +17439,60 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Houndour
-Level: 46
+Volcarona @ Heat Rock
+Level: 75
+Ability: Flame Body
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Roar
-- Solar Beam
-- Taunt
+- Quiver Dance
 - Sunny Day
-
-Growlithe
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
 - Flamethrower
-- Sunny Day
-- Roar
+- Bug Buzz
 
-Magcargo @ White Herb
-Level: 48
+Blacephalon @ Choice Specs
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
-
-Rapidash
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Attract
+- Shadow Ball
+- Mystical Fire
 - Solar Beam
-- Bounce
+- Psyshock
 
-Camerupt @ White Herb
-Level: 48
+Centiskorch @ Charti Berry
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Earthquake
-- Attract
+Dynamax Level: 10
+Gigantamax: Yes
+- Fire Lash
+- Leech Life
+- Power Whip
+- Coil
 
-Torkoal @ White Herb
-Level: 50
+Arcanine Hisui @ Focus Sash
+Level: 75
+Ability: Iron Head
+Tera Type: Fire
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+- Wild Charge
+
+Iron Moth @ Booster Energy
+Level: 75
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fiery Dance
+- Sludge Bomb
+- Solar Beam
 - Sunny Day
-- Explosion
-- Attract
+
+Scovillain @ Scovillainite
+Level: 75
+Ability: Chlorophyll
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Solar Beam
+- Flamethrower
+- Spicy Extract
+- Zen Headbutt
 
 === TRAINER_FLANNERY_5 ===
 Name: FLANNERY
@@ -17462,53 +17504,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Arcanine
-Level: 51
+Chi-Yu @ White Herb
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Helping Hand
+- Overheat
+- Dark Pulse
 - Flamethrower
-- Sunny Day
-- Roar
+- Psychic
 
-Magcargo @ White Herb
-Level: 53
+Arcanine Hisui @ Focus Sash
+Level: 85
+Ability: Iron Head
+Tera Type: Fire
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Attract
-- Light Screen
-- Rock Slide
+- Flare Blitz
+- Head Smash
+- Extreme Speed
+- Wild Charge
 
-Houndoom
-Level: 51
+Centiskorch @ Charti Berry
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Roar
-- Solar Beam
-- Taunt
-- Sunny Day
+Dynamax Level: 10
+Gigantamax: Yes
+- Fire Lash
+- Leech Life
+- Power Whip
+- Coil
 
-Rapidash
-Level: 51
+Volcanion @ Waterium Z
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Steam Eruption
 - Flamethrower
-- Attract
+- Sludge Bomb
+- Earth Power
+
+Iron Moth @ Booster Energy
+Level: 85
+Ability: Flame Body
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fiery Dance
+- Sludge Bomb
 - Solar Beam
-- Bounce
-
-Camerupt @ White Herb
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
 - Sunny Day
-- Earthquake
-- Attract
 
-Torkoal @ White Herb
-Level: 55
+Scovillain @ Scovillainite
+Level: 75
+Ability: Chlorophyll
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Overheat
-- Sunny Day
-- Explosion
-- Attract
+- Solar Beam
+- Flamethrower
+- Spicy Extract
+- Zen Headbutt
 
 === TRAINER_NORMAN_2 ===
 Name: NORMAN
