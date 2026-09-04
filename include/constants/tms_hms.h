@@ -21,7 +21,7 @@
     F(PROTECT) \
     F(RAIN_DANCE) \
     F(GIGA_DRAIN) \
-    F(RAGING_FURY) \
+    F(FLARE_BLITZ) \
     F(BLAZE_KICK) \
     F(SOLAR_BEAM) \
     F(CLOSE_COMBAT) \

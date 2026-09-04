@@ -12450,14 +12450,14 @@ const struct ItemInfo gItemsInfo[] =
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
     },
 
-    [ITEM_TM_RAGING_FURY] =
+    [ITEM_TM_FLARE_BLITZ] =
     {
         .name = ITEM_NAME("TM20"),
         .price = 3000,
         .description = COMPOUND_STRING(
-            "A rampage attack that\n"
-            "lasts 2-3 turns, then\n"
-            "confuses the user."),
+            "A reckless, fiery\n"
+            "tackle that also\n"
+            "hurts the user."),
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
