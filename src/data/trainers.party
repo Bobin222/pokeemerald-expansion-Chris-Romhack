@@ -18339,43 +18339,55 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Poliwag
-Level: 46
+Tatsugiri @ Safety Goggles
+Level: 55
+Ability: Commander
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Rain Dance
-- Protect
-- Hydro Pump
+- Dragon Pulse
+- Scald
+- Nasty Plot
+- Helping Hand
 
-Whiscash
-Level: 46
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Pulse
-- Double Team
-- Fissure
-
-Walrein
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Body Slam
-- Protect
-- Ice Beam
-
-Crawdaunt @ Chesto Berry
-Level: 48
+Dondozo @ Leftovers
+Level: 55
+Ability: Unaware
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
-- Crabhammer
-- Taunt
-- Double Team
+- Curse
+- Sleep Talk
+- Order Up
+
+Wishiwashi @ Figy Berry
+Level: 55
+Nature: Quiet
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Liquidation
+- U Turn
+- Ice Beam
+- Scald
+
+Quaquaval @ Life Orb
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Aqua Step
+- Knock Off
+- Roost
+
+Dracovish @ Choice Band
+Ability: Strong Jaw
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fishious Rend
+- Dragon Rush
+- Crunch
+- Psychic Fangs
 
 Kingdra @ Chesto Berry
-Level: 51
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Double Team
+- Surf
+- Dragon Dance
 - Ice Beam
 - Rest
 
@@ -18389,44 +18401,58 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Poliwhirl
-Level: 50
+Tatsugiri @ Safety Goggles
+Level: 65
+Ability: Commander
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Rain Dance
-- Protect
-- Hydro Pump
+- Dragon Pulse
+- Surf
+- Nasty Plot
+- Helping Hand
 
-Whiscash
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Pulse
-- Double Team
-- Fissure
-
-Walrein
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Body Slam
-- Protect
-- Ice Beam
-
-Crawdaunt @ Chesto Berry
-Level: 53
+Dondozo @ Leftovers
+Level: 65
+Ability: Unaware
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
-- Guillotine
-- Taunt
-- Double Team
+- Curse
+- Sleep Talk
+- Order Up
+
+Kingler @ Muscle Band
+Level: 65
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Dynamax Level: 10
+Gigantamax: Yes
+- X Scissor
+- Swords Dance
+- Razor Shell
+- Knock Off
+
+Quaquaval @ Life Orb
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Aqua Step
+- Knock Off
+- Roost
+
+Dracovish @ Choice Band
+Ability: Strong Jaw
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fishious Rend
+- Dragon Rush
+- Crunch
+- Psychic Fangs
 
 Kingdra @ Chesto Berry
-Level: 56
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
+- Surf
+- Dragon Dance
+- Sleep Talk
 - Rest
 
 === TRAINER_JUAN_4 ===
@@ -18439,53 +18465,60 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Lapras
-Level: 56
+Tatsugiri @ Safety Goggles
+Level: 75
+Ability: Commander
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Perish Song
-- Ice Beam
-- Confuse Ray
+- Dragon Pulse
+- Surf
+- Nasty Plot
+- Helping Hand
 
-Whiscash
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Pulse
-- Double Team
-- Fissure
-
-Poliwhirl
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Rain Dance
-- Protect
-- Hydro Pump
-
-Walrein
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Body Slam
-- Protect
-- Ice Beam
-
-Crawdaunt @ Chesto Berry
-Level: 58
+Dondozo @ Leftovers
+Level: 75
+Ability: Unaware
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
-- Guillotine
+- Curse
+- Sleep Talk
+- Order Up
+
+Kingler @ Muscle Band
+Level: 75
+Ability: Sheer Force
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Dynamax Level: 10
+Gigantamax: Yes
+- X Scissor
+- Swords Dance
+- Razor Shell
+- Knock Off
+
+Quaquaval @ Life Orb
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat
+- Aqua Step
+- Knock Off
+- Roost
+
+Iron Bundle @ Booster Energy
+Level: 75
+Ability: Quark Drive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Hydro Pump
+- Ice Beam
 - Taunt
-- Double Team
 
-Kingdra @ Chesto Berry
-Level: 61
+Walking Wake @ Booster Energy
+Level: 75
+Ability: Protosynthesis
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
+- Hydro Steam
+- Dracon Pulse
+- Flamethrower
+- Protect
 
 === TRAINER_JUAN_5 ===
 Name: JUAN
@@ -18497,53 +18530,61 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Lapras
-Level: 61
+Tatsugiri @ Safety Goggles
+Level: 75
+Ability: Commander
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Perish Song
-- Ice Beam
-- Confuse Ray
+- Dragon Pulse
+- Surf
+- Nasty Plot
+- Helping Hand
 
-Whiscash
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Pulse
-- Double Team
-- Fissure
-
-Politoed
-Level: 61
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Rain Dance
-- Hydro Pump
-- Perish Song
-
-Walrein
-Level: 63
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Body Slam
-- Protect
-- Sheer Cold
-
-Crawdaunt @ Chesto Berry
-Level: 63
+Dondozo @ Leftovers
+Level: 75
+Ability: Unaware
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
-- Guillotine
+- Curse
+- Sleep Talk
+- Order Up
+
+Kingler @ Muscle Band
+Level: 75
+Ability: Shell Armor
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Dynamax Level: 10
+Gigantamax: Yes
+- X Scissor
+- Swords Dance
+- Crabhammer
+- Knock Off
+
+Iron Bundle @ Booster Energy
+Level: 75
+Ability: Quark Drive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Freeze-Dry
+- Hydro Pump
+- Ice Beam
 - Taunt
-- Double Team
 
-Kingdra @ Chesto Berry
-Level: 66
+Walking Wake @ Booster Energy
+Level: 75
+Ability: Protosynthesis
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
+- Hydro Steam
+- Dracon Pulse
+- Flamethrower
+- Protect
+
+Urshifu Rapid Strike @ Protective Pads
+Ability: Unseen Fist
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Surging Strikes
+- Close Combat
+- U-turn
+- Aqua Jet
 
 === TRAINER_ANGELO ===
 Name: ANGELO
