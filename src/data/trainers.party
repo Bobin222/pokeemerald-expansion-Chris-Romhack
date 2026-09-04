@@ -17568,37 +17568,57 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Chansey
-Level: 42
+Snorlax @ Leftovers
+Level: 55
+Ability: Thick Fat
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+- Earthquake
+- Body Slam
+- Rest
+- Sleep Talk
 
-Slaking @ Sitrus Berry
-Level: 42
+Braviary @ Muscle Band
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+- Brave Bird
+- Superpower
+- Bulk Up
+- Roost
 
-Spinda
-Level: 43
+Ursaluna @ Flame Orb
+Level: 55
+Ability: Guts
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
-- Skill Swap
 - Facade
-- Hypnosis
+- Headlong Rush
+- Fire Punch
+- Protect
 
-Slaking @ Sitrus Berry
-Level: 45
+Dudunsparce Three Segment @ Sitrus Berry
+Level: 55
+Ability: Serene Grace
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+- Headbutt
+- Glare
+- Roost
+- Coil
+
+Farigiraf @ Sitrus Berry
+Level: 55
+Ability: Cud Chew
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Skill Swap
+- Nasty Plot
+- Stored Power
+- Dazzling Gleam
+
+Slaking @ Life Orb
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Retaliate
+- Sucker Punch
+- High Horsepower
+- Zen Headbutt
 
 === TRAINER_NORMAN_3 ===
 Name: NORMAN
@@ -17610,45 +17630,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
-Level: 47
+Snorlax @ Leftovers
+Level: 65
+Ability: Thick Fat
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+Dynamax Level: 10
+Gigantamax: Yes
+- Earthquake
+- Body Slam
+- Rest
+- Sleep Talk
 
-Chansey
-Level: 47
+Braviary @ Muscle Band
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+- Brave Bird
+- Superpower
+- Bulk Up
+- Roost
 
-Kangaskhan
-Level: 45
+Ursaluna @ Flame Orb
+Level: 65
+Ability: Guts
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Facade
+- Headlong Rush
+- Fire Punch
+- Protect
+
+Kangaskhan @ Kangaskhanite
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+- Body Slam
+- Crunch
+- Fire Punch
 
-Spinda
-Level: 48
+Farigiraf @ Sitrus Berry
+Level: 65
+Ability: Cud Chew
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
 - Skill Swap
-- Facade
-- Hypnosis
+- Nasty Plot
+- Stored Power
+- Dazzling Gleam
 
-Slaking @ Sitrus Berry
-Level: 50
+Slaking @ Life Orb
+Level: 65
+Tera Type: Normal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+- Retaliate
+- Sucker Punch
+- High Horsepower
+- Zen Headbutt
 
 === TRAINER_NORMAN_4 ===
 Name: NORMAN
@@ -17660,45 +17694,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
-Level: 52
+Snorlax @ Leftovers
+Level: 75
+Ability: Thick Fat
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+Dynamax Level: 10
+Gigantamax: Yes
+- Earthquake
+- Body Slam
+- Rest
+- Sleep Talk
 
-Blissey
-Level: 52
+Braviary @ Muscle Band
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Light Screen
-- Sing
-- Skill Swap
-- Focus Punch
+- Brave Bird
+- Superpower
+- Bulk Up
+- Roost
 
-Kangaskhan
-Level: 50
+Ursaluna Bloodmoon @ Assault Vest
+Level: 75
+Ability: Guts
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Moonlight
+
+Kangaskhan @ Kangaskhanite
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+- Body Slam
+- Crunch
+- Fire Punch
 
-Spinda
-Level: 53
+Farigiraf @ Sitrus Berry
+Level: 75
+Ability: Cud Chew
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
 - Skill Swap
-- Facade
-- Hypnosis
+- Nasty Plot
+- Stored Power
+- Dazzling Gleam
 
-Slaking @ Sitrus Berry
-Level: 55
+Slaking @ Life Orb
+Level: 75
+Tera Type: Normal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
-- Flamethrower
-- Thunderbolt
-- Shadow Ball
+- Retaliate
+- Sucker Punch
+- High Horsepower
+- Zen Headbutt
 
 === TRAINER_NORMAN_5 ===
 Name: NORMAN
@@ -17710,53 +17758,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slaking @ Sitrus Berry
-Level: 57
+Snorlax @ Leftovers
+Level: 85
+Ability: Thick Fat
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Shadow Ball
-- Double Edge
-- Fire Blast
+Dynamax Level: 10
+Gigantamax: Yes
+- High Horsepower
+- Body Slam
+- Rest
+- Sleep Talk
 
-Blissey
-Level: 57
+Ursaluna Bloodmoon @ Assault Vest
+Level: 85
+Ability: Guts
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Sing
-- Skill Swap
-- Focus Punch
+- Blood Moon
+- Earth Power
+- Vacuum Wave
+- Moonlight
 
-Kangaskhan
-Level: 55
+Kangaskhan @ Kangaskhanite
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Fake Out
-- Dizzy Punch
-- Endure
-- Reversal
+- Body Slam
+- Crunch
+- Fire Punch
 
-Tauros
-Level: 57
+Farigiraf @ Sitrus Berry
+Level: 85
+Ability: Cud Chew
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Protect
-- Fire Blast
-- Earthquake
-
-Spinda
-Level: 58
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Teeter Dance
 - Skill Swap
-- Facade
-- Hypnosis
+- Nasty Plot
+- Stored Power
+- Dazzling Gleam
 
-Slaking @ Sitrus Berry
-Level: 60
+Slaking @ Life Orb
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hyper Beam
+- Retaliate
+- Sucker Punch
+- High Horsepower
+- Zen Headbutt
+
+Terapagos @ Shell Bell
+Level: 85
+Tera Type: Stellar
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Tera Starstorm
+- Ice Beam
+- Earth Power
 - Flamethrower
-- Thunderbolt
-- Shadow Ball
 
 === TRAINER_WINONA_2 ===
 Name: WINONA
@@ -17768,43 +17822,56 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Dratini @ Sitrus Berry
-Level: 40
+Tropius @ Sitrus Berry
+Level: 55
+Ability: Harvest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
-- Protect
-- Ice Beam
+- Tailwind
+- Leech Seed
+- Defog
+- Helping Hand
 
-Tropius
-Level: 38
+Gliscor @ Toxic Orb
+Level: 55
+Ability: Poison Heal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
 - Earthquake
+- Roost
+- Facade
+- Swords Dance
 
-Pelipper
-Level: 41
+Talonflame @ Charti Berry
+Level: 55
+Ability: Gale Wings
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- Acrobatics
+- Roost
+- Raging Fury
+- Brave Bird
 
-Skarmory
-Level: 43
+Kilowattrel @ Heavy Duty Boots
+Level: 55
+Ability: Wind Power
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
+- Thunderbolt
+- Air Slash
+- Roost
+- Volt Switch
 
-Altaria @ Chesto Berry
-Level: 45
+Corviknight @ Leftovers
+Level: 55
+Ability: Wind Power
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
+- Defog
+- Bulk Up
+- Roost
+- Brave Bird
+
+Altaria @ Yache Berry
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dragon Pulse
+- Roost
 - Dragon Dance
 - Earthquake
 
@@ -19137,7 +19204,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dudunsparce Three Segment
 Level: 54
-Ability: Serene GRACE
+Ability: Serene Grace
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Headbutt
 - Glare
