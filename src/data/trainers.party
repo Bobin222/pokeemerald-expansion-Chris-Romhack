@@ -18077,40 +18077,51 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Slowpoke
-Level: 48
+Indeedee @ Light Clay
+Level: 55
+Ability: Psychic Surge
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
-
-Claydol
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Ancient Power
-- Psychic
+- Expanding Force
+- Reflect
+- Hyper Voice
 - Light Screen
 
-Xatu @ Chesto Berry
-Level: 49
+Gardevoir @ Psychic Seed
+Level: 55
+Ability: Trace
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
+- Expanding Force
+- Moonblast
+- Will o Wisp
+- Thunderbolt
 
-Lunatone @ Chesto Berry
-Level: 50
+Orbeetle @ Leftovers
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
 - Calm Mind
+- Bug Buzz
+- Giga Drain
+- Stored Power
 
-Solrock @ Sitrus Berry
-Level: 50
+Exeggutor @ Tanga Berry
+Level: 55
+Ability: Harvest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trick Room
+- Psychic Terrain
+- Expanding Force
+- Leaf Storm
+
+Lunatone @ Leftovers
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Moonlight
+- Hypnosis
+- Cosmic Power
+
+Solrock @ Heat Rock
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
@@ -18127,48 +18138,52 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Drowzee
-Level: 53
+Indeedee @ Light Clay
+Level: 65
+Ability: Psychic Surge
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Slowpoke
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
-
-Claydol
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+- Expanding Force
+- Reflect
+- Hyper Voice
 - Light Screen
 
-Xatu @ Chesto Berry
-Level: 54
+Gardevoir @ Gardevoirite
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
+- Expanding Force
+- Moonblast
+- Will o Wisp
+- Thunderbolt
 
-Lunatone @ Chesto Berry
-Level: 55
+Orbeetle @ Leftovers
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
-- Rest
+Dynamax Level: 10
+Gigantamax: Yes
 - Calm Mind
+- Bug Buzz
+- Giga Drain
+- Stored Power
 
-Solrock @ Sitrus Berry
-Level: 55
+Exeggutor @ Tanga Berry
+Level: 65
+Ability: Harvest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trick Room
+- Psychic Terrain
+- Expanding Force
+- Leaf Storm
+
+Lunatone @ Leftovers
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Moonlight
+- Hypnosis
+- Cosmic Power
+
+Solrock @ Heat Rock
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sunny Day
 - Solar Beam
@@ -18185,53 +18200,69 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Hypno
-Level: 58
+Indeedee @ Light Clay
+Level: 75
+Ability: Psychic Surge
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Claydol
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+- Expanding Force
+- Reflect
+- Hyper Voice
 - Light Screen
 
-Slowpoke
-Level: 58
+Gardevoir @ Gardevoirite
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
-- Calm Mind
-- Protect
+- Expanding Force
+- Moonblast
+- Will o Wisp
+- Thunderbolt
 
-Xatu @ Chesto Berry
-Level: 59
+Orbeetle @ Leftovers
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Rest
-- Confuse Ray
+Dynamax Level: 10
+Gigantamax: Yes
 - Calm Mind
+- Bug Buzz
+- Giga Drain
+- Stored Power
 
-Lunatone @ Chesto Berry
-Level: 60
+Exeggutor @ Tanga Berry
+Level: 75
+Ability: Harvest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Trick Room
+- Psychic Terrain
+- Expanding Force
+- Leaf Storm
+
+Scream Tail @ Booster Energy
+Level: 75
+Ability: Protosynthesis
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Calm Mind
+- Wish
+- Dazzling Gleam
+- Psychic Noise
+
+Iron Boulder @ Booster Energy
+Level: 75
+Ability: Quark Drive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tera Type: Fighting
+- Swords Dance
+- Mighty Cleave
 - Earthquake
-- Psychic
-- Rest
-- Calm Mind
+- Close Combat
 
-Solrock @ Sitrus Berry
-Level: 60
+Iron Crown @ Booster Energy
+Level: 75
+Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Focus Blast
 
 === TRAINER_TATE_AND_LIZA_5 ===
 Name: TATE&LIZA
@@ -18243,53 +18274,60 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Hypno
-Level: 63
+Gardevoir @ Gardevoirite
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Dream Eater
-- Headbutt
-- Protect
-
-Claydol
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Explosion
-- Psychic
+- Expanding Force
+- Moonblast
 - Light Screen
+- Thunderbolt
 
-Slowking
-Level: 63
+Orbeetle @ Leftovers
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Yawn
-- Psychic
+Dynamax Level: 10
+Gigantamax: Yes
 - Calm Mind
-- Protect
+- Giga Drain
+- Stored Power
+- Reflect
 
-Xatu @ Chesto Berry
-Level: 64
+Iron Boulder @ Booster Energy
+Level: 85
+Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Rest
-- Confuse Ray
-- Calm Mind
-
-Lunatone @ Chesto Berry
-Level: 65
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Tera Type: Fighting
+- Swords Dance
+- Mighty Cleave
 - Earthquake
-- Psychic
-- Rest
-- Calm Mind
+- Close Combat
 
-Solrock @ Sitrus Berry
-Level: 65
+Iron Crown @ Booster Energy
+Level: 85
+Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+- Tachyon Cutter
+- Expanding Force
+- Protect
+- Focus Blast
+
+Latios @ Soul Dew
+Level: 85
+Ability: Levitate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Luster Purge
+- Helping Hand
+- Recover
+
+Latias @ Soul Dew
+Level: 85
+Ability: Levitate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Mist Ball
+- Helping Hand
+- Recover
 
 === TRAINER_JUAN_2 ===
 Name: JUAN
