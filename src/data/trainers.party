@@ -17885,51 +17885,58 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Hoothoot
-Level: 43
+Togekiss @ Flyinium Z
+Level: 65
+Ability: Serene Grace
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
+- Tailwind
+- Air Slash
+- Defog
+- Roost
 
-Tropius
-Level: 43
+Gliscor @ Toxic Orb
+Level: 65
+Ability: Poison Heal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
 - Earthquake
+- Roost
+- Facade
+- Swords Dance
 
-Dragonair @ Sitrus Berry
-Level: 45
+Talonflame @ Charti Berry
+Level: 65
+Ability: Gale Wings
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
+- Acrobatics
+- Roost
+- Raging Fury
+- Brave Bird
+
+Kilowattrel @ Heavy Duty Boots
+Level: 65
+Ability: Wind Power
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Protect
-- Ice Beam
+- Air Slash
+- Roost
+- Volt Switch
 
-Pelipper
-Level: 46
+Corviknight @ Leftovers
+Level: 65
+Ability: Wind Power
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+Dynamax Level: 10
+Gigantamax: Yes
+- Defog
+- Bulk Up
+- Roost
+- Brave Bird
 
-Skarmory
-Level: 48
+Altaria @ Altarianite
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
+- Moonblast
+- Roost
 - Dragon Dance
 - Earthquake
 
@@ -17943,51 +17950,56 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Noctowl
-Level: 48
+Togekiss @ Flyinium Z
+Level: 75
+Ability: Serene Grace
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
+- Tailwind
+- Air Slash
+- Defog
+- Roost
 
-Tropius
-Level: 49
+Gliscor @ Toxic Orb
+Level: 75
+Ability: Poison Heal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
 - Earthquake
+- Roost
+- Facade
+- Swords Dance
 
-Dragonair @ Sitrus Berry
-Level: 50
+Iron Jugulis @ Booster Energy
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder Wave
-- Thunderbolt
+- Dark Pulse
+- Roost
+- Earth Power
+- Air Slash
+
+Celesteela @ Leftovers
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect
-- Ice Beam
+- Leech Seed
+- Heavy Slam
+- Flamethrower
 
-Pelipper
-Level: 51
+Corviknight @ Leftovers
+Level: 75
+Ability: Wind Power
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+Dynamax Level: 10
+Gigantamax: Yes
+- Defog
+- Bulk Up
+- Roost
+- Brave Bird
 
-Skarmory
-Level: 53
+Altaria @ Altarianite
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
-
-Altaria @ Chesto Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rest
+- Moonblast
+- Roost
 - Dragon Dance
 - Earthquake
 
@@ -18001,51 +18013,57 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer / Risky
 
-Noctowl
-Level: 53
+Landorus Therian @ Rocky Helmet
+Level: 85
+Ability: Intimidate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hypnosis
-- Psychic
-- Reflect
-- Dream Eater
-
-Tropius
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
+- U Turn
+- Stealth Rock
+- Defog
 - Earthquake
 
-Pelipper
-Level: 55
+Tornadus Therian @ Flyinium Z
+Level: 85
+Ability: Regenerator
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Supersonic
-- Protect
-- Aerial Ace
+- U Turn
+- Knock Off
+- Hurricane
+- Earthquake
 
-Dragonite @ Sitrus Berry
-Level: 55
+Thundurus Therian @ Magnet
+Level: 85
+Ability: Volt Absorb
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Wildbolt Storm
+- Nasty Plot
+- Focus Blast
 - Hyper Beam
-- Thunderbolt
-- Earthquake
-- Ice Beam
 
-Skarmory
-Level: 58
+Iron Jugulis @ Booster Energy
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Whirlwind
-- Spikes
-- Steel Wing
-- Aerial Ace
+- Dark Pulse
+- Roost
+- Earth Power
+- Air Slash
 
-Altaria @ Chesto Berry
-Level: 60
+Corviknight @ Leftovers
+Level: 85
+Ability: Wind Power
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sky Attack
-- Rest
+Dynamax Level: 10
+Gigantamax: Yes
+- Defog
+- Bulk Up
+- Roost
+- Brave Bird
+
+Altaria @ Altarianite
+Level: 85
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Moonblast
+- Roost
 - Dragon Dance
 - Earthquake
 
