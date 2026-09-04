@@ -11229,19 +11229,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Raboot
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wartortle
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Grovyle
-Level: 34
+Sceptile
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
@@ -11288,19 +11288,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drizzile
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ivysaur
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Combusken
-Level: 34
+Blaziken
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
@@ -11347,19 +11347,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Thwackey
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Charmeleon
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marshtomp
-Level: 34
+Swampert
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
@@ -11406,19 +11406,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Raboot
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Thwackey
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Grovyle
-Level: 34
+Sceptile
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
@@ -11465,19 +11465,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drizzile
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ivysaur
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Combusken
-Level: 34
+Blaziken
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
@@ -11524,19 +11524,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Qwilfish Hisui
-Level: 29
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Thwackey
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Charmeleon
-Level: 33
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marshtomp
-Level: 34
+Swmapert
+Level: 39
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_ISAAC_1 ===
@@ -14267,27 +14267,27 @@ Double Battle: No
 AI: Basic Trainer
 
 Orthworm
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Eiscue
-Level: 34
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Overqwil
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Inteleon
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Venusaur
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Blaziken
-Level: 38
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BRENDAN_LILYCOVE_TORCHIC ===
@@ -14300,27 +14300,27 @@ Double Battle: No
 AI: Basic Trainer
 
 Orthworm
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Eiscue
-Level: 34
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Overqwil
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rillaboom
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Charizard
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Swampert
-Level: 38
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_MUDKIP ===
@@ -14333,27 +14333,27 @@ Double Battle: No
 AI: Basic Trainer
 
 Orthworm
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Eiscue
-Level: 34
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Overqwil
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Cinderace
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Blastoise
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Sceptile
-Level: 38
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_TREECKO ===
@@ -14366,27 +14366,27 @@ Double Battle: No
 AI: Basic Trainer
 
 Orthworm
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Eiscue
-Level: 34
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Overqwil
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Inteleon
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Venusaur
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Blaziken
-Level: 38
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MAY_LILYCOVE_TORCHIC ===
@@ -14399,27 +14399,27 @@ Double Battle: No
 AI: Basic Trainer
 
 Orthworm
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Eiscue
-Level: 34
+Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Overqwil
-Level: 35
+Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rillaboom
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Charizard
-Level: 36
+Level: 42
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Swampert
-Level: 38
+Level: 43
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_JONAH ===
@@ -16564,37 +16564,54 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Golem
-Level: 32
+Golem Alola @ Air Balloon
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Magnitude
-- Explosion
+- Stone Edge
+- Stealth Rock
+- Supercell Slam
+- Sandstorm
 
-Kabuto @ Sitrus Berry
-Level: 35
+Archeops @ Flying Gem
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Head Smash
+- U Turn
+- Acrobatics
+- Earthquake
+
+Lycanroc Dusk @ Muscle Band
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
+- Accelerock
+- Close Combat
+- Play Rough
 
-Onix
-Level: 35
+Tyranitar @ Choice Scarf
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
+- Stone Edge
+- Crunch
+- Ice Punch
+- Stomping Tantrum
 
-Nosepass @ Sitrus Berry
-Level: 37
+Coalossal @ Focus Sash
+Level: 55
+Ability: Steam Engine
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
+- Rapid Spin
+- Heat Crash
+- Stone Edge
+- Spikes
+
+Probopass @ Shell Bell
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Defense
+- Heavy Slam
+- Body Press
+- Endeavor
 
 === TRAINER_ROXANNE_3 ===
 Name: ROXANNE
@@ -16606,45 +16623,58 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Omanyte
-Level: 37
+Golem Alola @ Air Balloon
+Level: 65
+Ability: Galvanize
+Tera: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
+- Stone Edge
+- Stealth Rock
+- Giga Impact
+- Sandstorm
 
-Golem
-Level: 37
+Aerodactyl @ Aerodactylite
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Magnitude
-- Explosion
+- Stone Edge
+- Earthquake
+- Fly
+- Dragon Claw
 
-Kabutops @ Sitrus Berry
-Level: 40
+Lycanroc Dusk @ Lycanium Z
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
+- Stone Edge
+- Accelerock
+- Close Combat
+- Play Rough
 
-Onix
-Level: 40
+Tyranitar @ Choice Scarf
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
+- Stone Edge
+- Crunch
+- Ice Punch
+- Stomping Tantrum
 
-Nosepass @ Sitrus Berry
-Level: 42
+Coalossal @ Assault Vest
+Level: 65
+Ability: Steam Engine
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
+Dynamax Level: 10
+Gigantamax: Yes
+- Rapid Spin
+- Heat Crash
+- Stone Edge
+- Scald
+
+Probopass @ Shell Bell
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Defense
+- Heavy Slam
+- Body Press
+- Endeavor
 
 === TRAINER_ROXANNE_4 ===
 Name: ROXANNE
@@ -16656,45 +16686,56 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Omastar
-Level: 42
+Iron Thorns @ Booster Energy
+Level: 75
+Tera: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
+- Stone Edge
+- Supercell Slam
+- Stealth Rock
+- Sandstorm
 
-Golem
-Level: 42
+Aerodactyl @ Aerodactylite
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Rollout
-- Earthquake
-- Explosion
+- Stone Edge
+- Iron Head
+- Fly
+- Dragon Claw
 
-Kabutops @ Sitrus Berry
-Level: 45
+Lycanroc Dusk @ Lycanium Z
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
+- Stone Edge
+- Accelerock
+- Close Combat
+- Play Rough
 
-Onix
-Level: 45
+Nihilego @ Black Sludge
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
+- Sludge Bomb
+- Power Gem
+- Dazzling Gleam
+- Thunderbolt
 
-Nosepass @ Sitrus Berry
-Level: 47
+Coalossal @ Assault Vest
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
+Dynamax Level: 10
+Gigantamax: Yes
+- Rapid Spin
+- Heat Crash
+- Stone Edge
+- Scald
+
+Probopass @ Shell Bell
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Iron Defense
+- Heavy Slam
+- Body Press
+- Endeavor
 
 === TRAINER_ROXANNE_5 ===
 Name: ROXANNE
@@ -16706,53 +16747,56 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Aerodactyl
-Level: 47
+Nihilego @ Black Sludge
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Hyper Beam
-- Supersonic
-- Protect
+- Sludge Bomb
+- Stealth Rock
+- Light Screen
+- Reflect
 
-Golem
-Level: 47
+Tyranitar @ Choice Scarf
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Focus Punch
-- Rollout
-- Earthquake
-- Explosion
+- Stone Edge
+- Crunch
+- Ice Punch
+- Stomping Tantrum
 
-Omastar
-Level: 47
+Lycanroc Dusk @ Lycanium Z
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Protect
-- Ice Beam
-- Rock Slide
-- Surf
+- Stone Edge
+- Accelerock
+- Close Combat
+- Play Rough
 
-Kabutops @ Sitrus Berry
-Level: 50
+Iron Thorns @ Booster Energy
+Level: 85
+Tera: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swords Dance
-- Ice Beam
-- Surf
-- Rock Slide
+- Stone Edge
+- Supercell Slam
+- Dragon Dance
+- Taunt
 
-Steelix
-Level: 50
+Coalossal @ Assault Vest
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Iron Tail
-- Explosion
-- Roar
-- Rock Slide
+Dynamax Level: 10
+Gigantamax: Yes
+- Sandstorm
+- Heat Crash
+- Stone Edge
+- Scald
 
-Nosepass @ Sitrus Berry
-Level: 52
+Diancie @ Diancite
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Explosion
-- Protect
-- Rock Slide
+- Draining Kiss
+- Moonblast
+- Diamond Storm
+- Earth Power
 
 === TRAINER_BRAWLY_2 ===
 Name: BRAWLY
