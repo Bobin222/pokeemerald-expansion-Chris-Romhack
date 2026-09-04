@@ -16626,7 +16626,7 @@ AI: Basic Trainer
 Golem Alola @ Air Balloon
 Level: 65
 Ability: Galvanize
-Tera: Electric
+Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Stealth Rock
@@ -16663,7 +16663,7 @@ Ability: Steam Engine
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Dynamax Level: 10
 Gigantamax: Yes
-- Rapid Spin
+- Heavy Slam
 - Heat Crash
 - Stone Edge
 - Scald
@@ -16688,7 +16688,7 @@ AI: Basic Trainer
 
 Iron Thorns @ Booster Energy
 Level: 75
-Tera: Electric
+Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Supercell Slam
@@ -16724,7 +16724,7 @@ Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Dynamax Level: 10
 Gigantamax: Yes
-- Rapid Spin
+- Heavy Slam
 - Heat Crash
 - Stone Edge
 - Scald
@@ -16749,6 +16749,7 @@ AI: Basic Trainer
 
 Nihilego @ Black Sludge
 Level: 85
+Tera Type: Poison
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Stealth Rock
@@ -16773,7 +16774,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Iron Thorns @ Booster Energy
 Level: 85
-Tera: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Supercell Slam
@@ -16785,7 +16785,7 @@ Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Dynamax Level: 10
 Gigantamax: Yes
-- Sandstorm
+- Heavy Slam
 - Heat Crash
 - Stone Edge
 - Scald
@@ -16796,7 +16796,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Draining Kiss
 - Moonblast
 - Diamond Storm
-- Earth Power
+- Sandstorm
 
 === TRAINER_BRAWLY_2 ===
 Name: BRAWLY
