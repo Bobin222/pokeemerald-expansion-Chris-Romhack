@@ -17061,37 +17061,56 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Mareep
-Level: 36
+Eletrode Hisui @ Terrain Extender
+Level: 55
+Ability: Aftermath
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
+- Volt Switch
+- Electro Ball
+- Electric Terrain
+- Chloroblast
+
+Eelektross @ Assault Vest
+Level: 55
+Ability: Levitate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Volt Switch
+- Giga Drain
+- Flamethrower
+- Drain Punch
+
+Rotom Fan @ Sitrus Berry
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Will o Wisp
 - Thunder Wave
-- Light Screen
+- Hex
+- Volt Switch
 
-Electrode
-Level: 36
+Raichu Alola @ Electric Seed
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
+- Nasty Plot
+- Substitute
+- Thunderbolt
+- Psychic
 
-Magneton @ Sitrus Berry
-Level: 38
+Toxtricity Amped @ Throat Spray
+Level: 55
+Ability: Punk Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
+- Hyper Voice
+- Overdrive
+- Psychic Noise
+- Electric Terrain
 
-Manectric @ Sitrus Berry
-Level: 40
+Manectric @ White Herb
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
+- Overheat
+- Thunderbolt
+- Hyper Voice
 - Thunder Wave
-- Thunder
-- Protect
 
 === TRAINER_WATTSON_3 ===
 Name: WATTSON
@@ -17103,45 +17122,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Pikachu
-Level: 39
+Eletrode Hisui @ Terrain Extender
+Level: 65
+Ability: Aftermath
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Shock Wave
+- Volt Switch
+- Electro Ball
+- Electric Terrain
+- Chloroblast
 
-Flaaffy
-Level: 41
+Eelektross @ Assault Vest
+Level: 65
+Ability: Levitate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
+- Volt Switch
+- Giga Drain
+- Flamethrower
+- Drain Punch
+
+Rotom Fan @ Sitrus Berry
+Level: 65
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Will o Wisp
 - Thunder Wave
-- Light Screen
+- Hex
+- Volt Switch
 
-Electrode
-Level: 41
+Raichu Alola @ Aloraichium Z
+Level: 65
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
+- Nasty Plot
+- Substitute
+- Thunderbolt
+- Psychic
 
-Magneton @ Sitrus Berry
-Level: 43
+Toxtricity Amped @ Throat Spray
+Level: 65
+Ability: Punk Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
+Dynamax Level: 10
+Gigantamax: Yes
+- Hyper Voice
+- Overdrive
+- Psychic Noise
+- Electric Terrain
 
-Manectric @ Sitrus Berry
-Level: 45
+Manectric @ Manectite
+Level: 65
+Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
+- Flamethrower
+- Thunderbolt
+- Hyper Voice
 - Thunder Wave
-- Thunder
-- Protect
 
 === TRAINER_WATTSON_4 ===
 Name: WATTSON
@@ -17153,45 +17186,57 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Raichu
-Level: 44
+Sandy Shocks @ Booster Energy
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Protect
+- Stealth Rock
+- Earth Power
+- Electric Terrain
+- Thunderbolt
 
-Ampharos
-Level: 46
+Xurkitree @ Choice Scarf
+Level: 75
+Ability: Beast Boost
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
+- Thunderbolt
+- Energy Ball
+- Dazzling Gleam
+- Hyper Beam
+
+Rotom Fan @ Sitrus Berry
+Level: 75
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Will o Wisp
 - Thunder Wave
-- Light Screen
+- Hex
+- Volt Switch
 
-Electrode
-Level: 46
+Raichu Alola @ Aloraichium Z
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
+- Nasty Plot
+- Substitute
+- Thunderbolt
+- Psychic
 
-Magneton @ Sitrus Berry
-Level: 48
+Toxtricity Amped @ Throat Spray
+Level: 75
+Ability: Punk Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
+Dynamax Level: 10
+Gigantamax: Yes
+- Hyper Voice
+- Overdrive
+- Psychic Noise
+- Electric Terrain
 
-Manectric @ Sitrus Berry
-Level: 50
+Manectric @ Manectite
+Level: 75
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
+- Flamethrower
+- Thunderbolt
+- Hyper Voice
 - Thunder Wave
-- Thunder
-- Protect
 
 === TRAINER_WATTSON_5 ===
 Name: WATTSON
@@ -17203,53 +17248,59 @@ Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
 AI: Basic Trainer
 
-Electabuzz
-Level: 50
+Sandy Shocks @ Booster Energy
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Swift
-- Focus Punch
-- Thunder Punch
-- Light Screen
+- Stealth Rock
+- Earth Power
+- Electric Terrain
+- Thunderbolt
 
-Raichu
-Level: 51
+Xurkitree @ Choice Scarf
+Level: 85
+Ability: Beast Boost
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Slam
-- Rain Dance
-- Protect
+- Thunderbolt
+- Energy Ball
+- Dazzling Gleam
+- Hyper Beam
 
-Ampharos
-Level: 51
+Manectric @ Manectite
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Protect
+- Flamethrower
+- Thunderbolt
+- Hyper Voice
 - Thunder Wave
-- Light Screen
 
-Electrode
-Level: 53
+Tapu Koko @ Tapunium Z
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rollout
-- Thunder
-- Explosion
-- Rain Dance
+- Thunderbolt
+- Dazzling Gleam
+- Nature's Madness
+- Grass Knot
 
-Magneton @ Sitrus Berry
-Level: 53
+Toxtricity Amped @ Throat Spray
+Level: 85
+Ability: Punk Rock
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Supersonic
-- Protect
-- Thunder
-- Rain Dance
+Dynamax Level: 10
+Gigantamax: Yes
+- Hyper Voice
+- Overdrive
+- Psychic Noise
+- Electric Terrain
 
-Manectric @ Sitrus Berry
-Level: 55
+Miraidon @ Life Orb
+Level: 85
+Ability: Hadron Engine
+Tera Type: Flying
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bite
-- Thunder Wave
-- Thunder
-- Protect
+- Draco Meteor
+- Electro Drift
+- Calm Mind
+- Tera Blast
 
 === TRAINER_FLANNERY_2 ===
 Name: FLANNERY
