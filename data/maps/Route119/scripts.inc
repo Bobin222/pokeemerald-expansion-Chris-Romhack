@@ -492,7 +492,7 @@ Route119_Text_MayDefeat:
 	.string "and filling my POKéDEX!\p"
 	.string "I'm going to keep looking for rare\n"
 	.string "POKéMON, and maybe I'll find one\l"
-	.string "you can't beat!\$"
+	.string "you can't beat!$"
 
 Route119_Text_MayPresentForYou:
 	.string "COURTNEY: But I had absolutely \n"
