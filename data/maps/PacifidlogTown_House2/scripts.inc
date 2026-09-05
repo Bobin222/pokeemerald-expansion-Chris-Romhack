@@ -88,6 +88,10 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 	release
 	end
 
+PacifidlogTown_House2_Text_AhYourPokemon:
+	.string "Ah!\n"
+	.string "Your POKéMON…$"
+
 PacifidlogTown_House2_Text_ChairmansYoungerBrotherOnVacation:
 	.string "Er-hem!\p"
 	.string "I am the POKéMON FAN CLUB's most\n"
