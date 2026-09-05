@@ -200,8 +200,8 @@ Route123_Text_NoBugMonsResponse:
 
 Route123_Text_BugWarning:
 	.string "Oh, one more thing!\p"
-	.string "Heading further up the route? Careful\n"
-	.string "— there's an old man ahead with some\l"
+	.string "Heading toward Mauville? Careful,\n"
+	.string "there's an old man ahead with some\l"
 	.string "seriously scary-looking BUG-type\l"
 	.string "POKéMON.$"
 
