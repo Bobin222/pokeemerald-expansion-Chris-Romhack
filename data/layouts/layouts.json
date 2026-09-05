@@ -334,7 +334,7 @@
     {
       "id": "LAYOUT_ROUTE115",
       "name": "Route115_Layout",
-      "width": 40,
+      "width": 43,
       "height": 80,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Fallarbor",

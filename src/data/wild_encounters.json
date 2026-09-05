@@ -3176,7 +3176,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_SALAMENCE"
+                "species": "SPECIES_FLYGON"
               }
             ]
           },
@@ -3330,7 +3330,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DRAGONITE"
+                "species": "SPECIES_NOIVERN"
               }
             ]
           },
@@ -9323,7 +9323,7 @@
               {
                 "min_level": 30,
                 "max_level": 40,
-                "species": "SPECIES_DRAGALGE"
+                "species": "SPECIES_DRAGONITE"
               }
             ]
           },
@@ -9412,7 +9412,7 @@
               {
                 "min_level": 30,
                 "max_level": 40,
-                "species": "SPECIES_DRAGALGE"
+                "species": "SPECIES_SALAMENCE"
               }
             ]
           },
