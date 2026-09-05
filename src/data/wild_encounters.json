@@ -6091,12 +6091,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_RAPIDASH_GALAR"
+                "species": "SPECIES_KIRLIA"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_KIRLIA"
+                "species": "SPECIES_RAPIDASH_GALAR"
               },
               {
                 "min_level": 24,
@@ -6230,7 +6230,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_FLABEBE"
+                "species": "SPECIES_HATTREM"
               },
               {
                 "min_level": 25,
@@ -6240,7 +6240,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_MILCERY"
+                "species": "SPECIES_MORGREM"
               },
               {
                 "min_level": 25,

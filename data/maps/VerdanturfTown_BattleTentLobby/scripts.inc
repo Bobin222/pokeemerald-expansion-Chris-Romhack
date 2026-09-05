@@ -353,8 +353,8 @@ VerdanturfTown_BattleTentLobby_Text_AttractionRunsDeep:
 VerdanturfTown_BattleTentLobby_Text_AttractionMutual:
 	.string "My feelings toward my POKéMON…\n"
 	.string "I'm sure the attraction is mutual!\p"
-	.string "They battle exactly the way I want\n"
-	.string "them to!$"
+	.string "I swear they'd give up their\n"
+	.string "own energy just to keep me happy!$"
 
 VerdanturfTown_BattleTentLobby_Text_TaughtWhatKindsOfMoves:
 	.string "What kind of moves have you taught\n"
