@@ -1353,6 +1353,27 @@ void IsGrassTypeInParty(void)
     gSpecialVar_Result = FALSE;
 }
 
+void IsBugTypeInParty(void)
+{
+    u8 i;
+    enum Species species;
+    struct Pokemon *pokemon;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        pokemon = &gParties[B_TRAINER_PLAYER][i];
+        if (GetMonData(pokemon, MON_DATA_SANITY_HAS_SPECIES) && !GetMonData(pokemon, MON_DATA_IS_EGG))
+        {
+            species = GetMonData(pokemon, MON_DATA_SPECIES);
+            if (GetSpeciesType(species, 0) == TYPE_BUG || GetSpeciesType(species, 1) == TYPE_BUG)
+            {
+                gSpecialVar_Result = TRUE;
+                return;
+            }
+        }
+    }
+    gSpecialVar_Result = FALSE;
+}
+
 void IsFairyTypeOnLead(void)
 {
     struct Pokemon *pokemon = &gPlayerParty[GetLeadMonIndex()];

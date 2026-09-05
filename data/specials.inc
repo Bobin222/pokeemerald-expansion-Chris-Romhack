@@ -319,6 +319,7 @@ gSpecials::
 	def_special InitRoamer
 	def_special TryUpdateRusturfTunnelState
 	def_special IsGrassTypeInParty
+	def_special IsBugTypeInParty
 	def_special IsFairyTypeOnLead
 	def_special IsDragonTypeOnLead
 	def_special IsLeadMonAtFriendshipEvoThreshold

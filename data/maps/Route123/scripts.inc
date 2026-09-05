@@ -9,25 +9,30 @@ Route123_OnTransition:
 Route123_EventScript_GigaDrainGirl::
 	lock
 	faceplayer
-	goto_if_set FLAG_RECEIVED_TM_GIGA_DRAIN, Route123_EventScript_ReceivedGigaDrain
-	msgbox Route123_Text_LoveGrassMonsHaveAny, MSGBOX_DEFAULT
-	special IsGrassTypeInParty
-	goto_if_eq VAR_RESULT, FALSE, Route123_EventScript_NoGrassMons
-	msgbox Route123_Text_YouLikeGrassMonsTooHaveThis, MSGBOX_DEFAULT
-	giveitem ITEM_TM_GIGA_DRAIN
+	goto_if_set FLAG_RECEIVED_TM_BUG_BUZZ, Route123_EventScript_ReceivedBugBuzz
+	msgbox Route123_Text_LoveBugMonsHaveAny, MSGBOX_DEFAULT
+	special IsBugTypeInParty
+	goto_if_eq VAR_RESULT, FALSE, Route123_EventScript_NoBugMons
+	msgbox Route123_Text_YouLikeBugMonsTooHaveThis, MSGBOX_DEFAULT
+	giveitem ITEM_TM_BUG_BUZZ
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
-	setflag FLAG_RECEIVED_TM_GIGA_DRAIN
-	msgbox Route123_Text_CheckTreesWithMyGrassMon, MSGBOX_DEFAULT
+	setflag FLAG_RECEIVED_TM_BUG_BUZZ
+	msgbox Route123_Text_BugWarning, MSGBOX_DEFAULT
 	release
 	end
 
-Route123_EventScript_NoGrassMons::
+Route123_EventScript_NoBugMons::
+	msgbox Route123_Text_NoBugMonsResponse, MSGBOX_DEFAULT
 	release
 	end
 
-Route123_EventScript_ReceivedGigaDrain::
-	msgbox Route123_Text_CheckTreesWithMyGrassMon, MSGBOX_DEFAULT
+Route123_EventScript_ReceivedBugBuzz::
+	msgbox Route123_Text_AlreadyGaveBestBugMove, MSGBOX_DEFAULT
 	release
+	end
+
+Route123_EventScript_BugWarningTrainer::
+	msgbox Route123_Text_BugWarning, MSGBOX_NPC
 	end
 
 Route123_EventScript_RouteSign::
@@ -170,20 +175,39 @@ Route123_EventScript_RematchFernando::
 	msgbox Route123_Text_FernandoPostRematch, MSGBOX_AUTOCLOSE
 	end
 
-Route123_Text_LoveGrassMonsHaveAny:
-	.string "I love GRASS-type POKéMON!\p"
-	.string "Do you have any GRASS-type POKéMON?$"
+Route123_Text_LoveBugMonsHaveAny:
+	.string "Most people think BUG-type\n"
+	.string "POKéMON are weak and pass them by\l"
+	.string "without a second glance.\p"
+	.string "Do you have any BUG-type POKéMON?$"
 
-Route123_Text_YouLikeGrassMonsTooHaveThis:
+Route123_Text_YouLikeBugMonsTooHaveThis:
 	.string "Oh?\p"
-	.string "You like GRASS-type POKéMON, too,\n"
+	.string "You know their real strength, too,\n"
 	.string "don't you?\p"
 	.string "I'm so happy, you can have this!\n"
 	.string "It's a token of our friendship.$"
 
-Route123_Text_CheckTreesWithMyGrassMon:
-	.string "I check trees with my GRASS-type\n"
-	.string "POKéMON. I'm like a tree doctor.$"
+Route123_Text_CheckTreesWithMyBugMon:
+	.string "I search the trees around here for\n"
+	.string "more BUG-type POKéMON. You never\l"
+	.string "know what's hiding up there!$"
+
+Route123_Text_NoBugMonsResponse:
+	.string "Aw, that's too bad.\p"
+	.string "Well, if you ever catch one, come\n"
+	.string "back and show me sometime!$"
+
+Route123_Text_BugWarning:
+	.string "Oh, one more thing!\p"
+	.string "Heading further up the route? Careful\n"
+	.string "— there's an old man ahead with some\l"
+	.string "seriously scary-looking BUG-type\l"
+	.string "POKéMON.$"
+
+Route123_Text_AlreadyGaveBestBugMove:
+	.string "I already gave you my best BUG-type\n"
+	.string "move. Good luck out there!$"
 
 Route123_Text_RouteSign:
 	.string "{RIGHT_ARROW} ROUTE 123\n"
