@@ -319,6 +319,9 @@ gSpecials::
 	def_special InitRoamer
 	def_special TryUpdateRusturfTunnelState
 	def_special IsGrassTypeInParty
+	def_special IsFairyTypeOnLead
+	def_special IsDragonTypeOnLead
+	def_special IsLeadMonAtFriendshipEvoThreshold
 	def_special DoContestHallWarp, waitstate=1
 	def_special LoadWallyZigzagoon
 	def_special IsStarterInParty
