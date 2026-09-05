@@ -486,8 +486,13 @@ Route119_Text_MayIntro:
 Route119_Text_MayDefeat:
 	.string "Achah!\n"
 	.string "{PLAYER}{KUN}, you're strong!\p"
-	.string "I was worried that you might be\n"
-	.string "struggling with your training.$"
+	.string "Maybe I'm not cut out for\n"
+	.string "this battling stuff…\p"
+	.string "Nah, I just need to keep exploring\n"
+	.string "and filling my POKéDEX!\p"
+	.string "I'm going to keep looking for rare\n"
+	.string "POKéMON, and maybe I'll find one\l"
+	.string "you can't beat!\$"
 
 Route119_Text_MayPresentForYou:
 	.string "COURTNEY: But I had absolutely \n"
@@ -516,8 +521,15 @@ Route119_Text_BrendanIntro:
 	.string "It's a battle, so battle!$"
 
 Route119_Text_BrendanDefeat:
-	.string "Hmm…\n"
-	.string "You've gotten pretty darn decent.$"
+	.string "Dang, lost again.\n"
+	.string "You're strong, {PLAYER}!\p"
+	.string "Maybe I'm not cut out for\n"
+	.string "this battling stuff…\p"
+	.string "Nah, I just need to keep exploring\n"
+	.string "and filling my POKéDEX!\p"
+	.string "I'm going to keep looking for rare\n"
+	.string "POKéMON, and maybe I'll find one\l"
+	.string "you can't beat!$"
 
 Route119_Text_BrendanIllGiveYouThis:
 	.string "CHRIS: I'd say you're good enough\n"
