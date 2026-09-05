@@ -35,6 +35,7 @@ PacifidlogTown_House2_EventScript_GiveMoonblast:
 	msgbox PacifidlogTown_House2_Text_GiveMoonblast, MSGBOX_DEFAULT
 	giveitem ITEM_TM_MOONBLAST
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	msgbox PacifidlogTown_House2_Text_ExplainMoonblast, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_FANCLUB_MOONBLAST_TM
 	release
 	end
@@ -43,6 +44,7 @@ PacifidlogTown_House2_EventScript_GiveDragonPulse:
 	msgbox PacifidlogTown_House2_Text_GiveDragonPulse, MSGBOX_DEFAULT
 	giveitem ITEM_TM_DRAGON_PULSE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	msgbox PacifidlogTown_House2_Text_ExplainDragonPulse, MSGBOX_DEFAULT
 	setflag FLAG_RECEIVED_FANCLUB_DRAGON_PULSE_TM
 	release
 	end
@@ -121,6 +123,16 @@ PacifidlogTown_House2_Text_AlreadyGotIt:
 	.string "I've already given you my best for\n"
 	.string "that type. Come back with something\l"
 	.string "else sometime!$"
+
+PacifidlogTown_House2_Text_ExplainMoonblast:
+	.string "That TM contains MOONBLAST!\n"
+	.string "May it manifest all your POKéMON's\l"
+	.string "love for you when it's used!$"
+
+PacifidlogTown_House2_Text_ExplainDragonPulse:
+	.string "That TM contains DRAGON PULSE!\n"
+	.string "May it manifest all your POKéMON's\l"
+	.string "love for you when it's used!$"
 
 PacifidlogTown_House2_Text_Rurii:
 	.string "AZURILL: Rurii.$"
