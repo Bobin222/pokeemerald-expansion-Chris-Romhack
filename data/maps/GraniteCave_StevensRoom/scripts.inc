@@ -93,7 +93,7 @@ GraniteCave_StevensRoom_EventScript_Matt::
 	lock
 	faceplayer
 	msgbox GraniteCave_StevensRoom_Text_MattIntro, MSGBOX_DEFAULT
-	trainerbattle_single TRAINER_MATT, GraniteCave_StevensRoom_Text_MattIntro, GraniteCave_StevensRoom_Text_MattDefeat
+	trainerbattle_single TRAINER_MATT_DEVELOPER, GraniteCave_StevensRoom_Text_MattIntro, GraniteCave_StevensRoom_Text_MattDefeat
 	msgbox GraniteCave_StevensRoom_Text_MattPostBattle, MSGBOX_DEFAULT
 	release
 	end
