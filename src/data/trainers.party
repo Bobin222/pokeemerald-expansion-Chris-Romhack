@@ -18629,7 +18629,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer | Check Bad Move | Try To Faint | Smart Switching
+AI: Basic Trainer / Check Bad Move / Try To Faint
 
 Swampert @ Leftovers
 Level: 85
@@ -18688,7 +18688,7 @@ Jolly Nature
 - Pursuit
 - Stone Edge
 
-Blaziken (M) @ Blazikenite
+Blaziken @ Blazikenite
 Ability: Blaze
 Level: 85
 Shiny: Yes
