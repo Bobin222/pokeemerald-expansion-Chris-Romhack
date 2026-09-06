@@ -149,3 +149,4 @@ GraniteCave_StevensRoom_Text_MattDefeat:
 GraniteCave_StevensRoom_Text_MattPostBattle:
 	.string "Come back and challenge me again\n"
 	.string "anytime, Chris!$"
+	
