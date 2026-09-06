@@ -18632,53 +18632,63 @@ Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Skarmory
-Level: 77
+Stakataka @ Focus Sash
+Level: 85
+Nature: Lonely
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Aerial Ace
-- Spikes
-- Steel Wing
+- Iron Defense
+- Trick Room
+- Stealth Rock
+- Body Press
 
-Claydol
-Level: 75
+Melmetal @ Assault Vest
+Level: 85
+Ability: Iron Fist
+Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Reflect
-- Light Screen
-- Ancient Power
+Dynamax Level: 10
+Gigantamax: Yes
+- Double Iron Bash
+- Earthquake
+- Thunder Punch
+- Ice Punch
+
+Goodra Hisui @ Leftovers
+Level: 85
+Ability: Gooey
+Nature: Quiet
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Draco Meteor
+- Protect
+- Heavy Slam
 - Earthquake
 
-Aggron
-Level: 76
+Zamazenta @ Rusted Shield
+Level: 85
+Nature: Sassy
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Earthquake
-- Solar Beam
-- Dragon Claw
+- Close Combat
+- Sleep Talk
+- Rest
+- Iron Head
 
-Cradily
-Level: 76
+Jirachi @ Choice Scarf
+Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Ancient Power
-- Ingrain
-- Confuse Ray
+- Iron Head
+- U Turn
+- Healing Wish
+- Fire Punch
 
-Armaldo
-Level: 76
+Metagross @ Metagrossite
+Level: 86
+Ability: Clear Body
+Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Water Pulse
-- Ancient Power
-- Aerial Ace
-- Slash
-
-Metagross @ Sitrus Berry
-Level: 78
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Psychic
+- Bullet Punch
+- Zen Headbutt
 - Meteor Mash
-- Shadow Ball
+- Ice Punch
 
 === TRAINER_ANABEL ===
 Name: ANABEL
