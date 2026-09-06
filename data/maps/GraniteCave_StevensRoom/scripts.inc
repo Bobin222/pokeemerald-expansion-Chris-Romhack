@@ -1,5 +1,15 @@
 GraniteCave_StevensRoom_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, GraniteCave_StevensRoom_OnTransition
 	.byte 0
+
+GraniteCave_StevensRoom_OnTransition:
+	setflag FLAG_HIDE_GRANITE_CAVE_STEVENS_ROOM_MATT
+	call_if_set FLAG_SYS_GAME_CLEAR, GraniteCave_StevensRoom_EventScript_CheckShowMatt
+	end
+
+GraniteCave_StevensRoom_EventScript_CheckShowMatt:
+	clearflag FLAG_HIDE_GRANITE_CAVE_STEVENS_ROOM_MATT
+	return
 
 GraniteCave_StevensRoom_EventScript_Steven::
 	lock
@@ -79,6 +89,15 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	delay_8
 	step_end
 
+GraniteCave_StevensRoom_EventScript_Matt::
+	lock
+	faceplayer
+	msgbox GraniteCave_StevensRoom_Text_MattIntro, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_MATT, GraniteCave_StevensRoom_Text_MattIntro, GraniteCave_StevensRoom_Text_MattDefeat
+	msgbox GraniteCave_StevensRoom_Text_MattPostBattle, MSGBOX_DEFAULT
+	release
+	end
+
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
 	.string "My name is STEVEN.\p"
 	.string "I'm interested in rare stones,\n"
@@ -117,3 +136,16 @@ GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"
 	.string "That's too bad, then.$"
 
+GraniteCave_StevensRoom_Text_MattIntro:
+	.string "So, you beat the game!\n"
+	.string "Did you have fun?\p"
+	.string "Good job finding me.\n"
+	.string "Top o' the fridge!$"
+
+GraniteCave_StevensRoom_Text_MattDefeat:
+	.string "Hopefully my AI wasn't too dumb.\n"
+	.string "Great job!$"
+
+GraniteCave_StevensRoom_Text_MattPostBattle:
+	.string "Come back and challenge me again\n"
+	.string "anytime, Chris!$"

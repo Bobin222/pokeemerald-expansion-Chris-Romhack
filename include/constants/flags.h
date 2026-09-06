@@ -1227,7 +1227,7 @@
 #define FLAG_ITEM_MT_CHIMNEY_TM_ROCK_SLIDE                          0x495 // Unused Flag
 #define FLAG_ITEM_MT_PYRE_TM_PHANTOM_FORCE                          0x496 // Unused Flag
 #define FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_REAPER_CLOTH                0x497 // Unused Flag
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
+#define FLAG_HIDE_GRANITE_CAVE_STEVENS_ROOM_MATT                    0x498 // Unused Flag
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
