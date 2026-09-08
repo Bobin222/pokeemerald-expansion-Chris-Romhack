@@ -1327,7 +1327,7 @@
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
 #define FLAG_DYNAMAX_ANYWHERE                                       0x4F9 // Dynamax Anywhere Flag
-#define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
+#define FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY                         0x4FA // Flag to hide the Dynamax guy in Mauville City
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC

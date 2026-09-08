@@ -2660,15 +2660,12 @@ const struct ItemInfo gItemsInfo[] =
         .pluralName = ITEM_PLURAL_NAME("Max Mushrooms"),
         .price = 8000,
         .description = COMPOUND_STRING(
-            "Raises every stat\n"
-            "during one battle\n"
-            "by one stage."),
+            "A strange mushroom\n"
+            "that lets an eligible\n"
+            "POKéMON Gigantamax."),
         .pocket = POCKET_ITEMS,
-        .sortType = ITEM_TYPE_BATTLE_ITEM,
-        .type = B_X_ITEMS_CROSSUSE ? ITEM_USE_BATTLER : ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-        .battleUsage = EFFECT_ITEM_INCREASE_ALL_STATS,
-        .flingPower = 30,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_GMaxMushroom,
         .iconPic = gItemIcon_MaxMushrooms,
         .iconPalette = gItemIconPalette_MaxMushrooms,
     },

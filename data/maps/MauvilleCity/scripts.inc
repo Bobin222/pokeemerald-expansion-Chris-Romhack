@@ -8,9 +8,53 @@ MauvilleCity_OnTransition:
 	clearflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
 	setflag FLAG_SYS_TV_START
 	clearflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
+	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
+	call_if_set FLAG_BADGE03_GET, MauvilleCity_EventScript_CheckShowDynamaxGuy
 	setvar VAR_MAUVILLE_GYM_STATE, 0
 	call_if_set FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON, MauvilleCity_EventScript_MoveWattsonBackToGym
 	end
+
+MauvilleCity_EventScript_CheckShowDynamaxGuy:
+	clearflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
+	return
+
+MauvilleCity_EventScript_DynamaxGuyNotices::
+	lockall
+	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
+	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyNotices
+	waitmovement 0
+	msgbox MauvilleCity_Text_DynamaxBandGuy, MSGBOX_DEFAULT
+	giveitem ITEM_DYNAMAX_BAND
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	closemessage
+	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyRunsOff
+	waitmovement 0
+	removeobject LOCALID_DYNAMAX_BAND_GUY
+	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
+	releaseall
+	end
+
+MauvilleCity_Movement_DynamaxGuyNotices:
+	face_left
+	delay_16
+	face_right
+	delay_16
+	face_up
+	emote_exclamation_mark
+	delay_16
+	walk_fast_up
+	step_end
+
+MauvilleCity_Movement_DynamaxGuyRunsOff:
+	walk_fast_down
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
 
 MauvilleCity_EventScript_MoveWattsonBackToGym::
 	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
@@ -662,3 +706,9 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
+
+MauvilleCity_Text_DynamaxBandGuy:
+	.string "Hey! Hang on to this for me for\n"
+	.string "a bit!\p"
+	.string "I need to wait for the heat to\n"
+	.string "die down!$"
