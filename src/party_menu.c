@@ -5040,6 +5040,36 @@ void ItemUseCB_AbilityCapsule(u8 taskId, TaskFunc task)
     gTasks[taskId].func = Task_AbilityCapsule;
 }
 
+static const u8 sText_GMaxMushroomWorked[] = _("This Pokémon can now\nGigantamax!{PAUSE_UNTIL_PRESS}");
+
+void ItemUseCB_GMaxMushroom(u8 taskId, TaskFunc task)
+{
+    struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][gPartyMenu.slotId];
+    enum Species currentSpecies = GetMonData(mon, MON_DATA_SPECIES);
+    enum Species targetSpecies = GetFormChangeTargetSpecies(mon, FORM_CHANGE_BATTLE_GIGANTAMAX);
+    bool32 alreadyHasFactor = GetMonData(mon, MON_DATA_GIGANTAMAX_FACTOR);
+
+    PlaySE(SE_SELECT);
+
+    if (targetSpecies == currentSpecies || alreadyHasFactor)
+    {
+        gPartyMenuUseExitCallback = FALSE;
+        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
+    }
+    else
+    {
+        bool32 gigantamaxFactor = TRUE;
+        SetMonData(mon, MON_DATA_GIGANTAMAX_FACTOR, &gigantamaxFactor);
+        RemoveBagItem(gSpecialVar_ItemId, 1);
+        gPartyMenuUseExitCallback = TRUE;
+        DisplayPartyMenuMessage(sText_GMaxMushroomWorked, TRUE);
+        ScheduleBgCopyTilemapToVram(2);
+        gTasks[taskId].func = task;
+    }
+}
+
 void Task_AbilityPatch(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;

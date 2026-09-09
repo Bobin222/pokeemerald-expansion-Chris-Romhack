@@ -2289,18 +2289,18 @@ Route116_Text_KarenPostRematch:
 	.string "I can't beat you, then. Not yet.$"
 
 Route116_Text_SarahIntro:
-	.string "Just so you know, I've never once been\n"
-	.string "bested by anyone at anything.$"
+	.string "Hi Chris! I don't really know\n"
+	.string "what I'm doing here!.$"
 
 Route116_Text_SarahDefeat:
-	.string "Oh, my goodness.\n"
-	.string "This is a new experience for me.$"
+	.string "Oh, I'm out of Pokemon.\p"
+	.string "That's too bad!.$"
 
 Route116_Text_SarahPostBattle:
-	.string "My life of luxury affords me all that\n"
-	.string "I could possibly desire.\p"
-	.string "However, when it comes to POKéMON,\n"
-	.string "my wealth has no meaning.$"
+	.string "I don't really know anything\n"
+	.string "about Pokemon, but that was fun!\p"
+	.string "I hope you're enjoying the game,\n"
+	.string "thanks for coming to the wedding!$"
 
 Route116_Text_DawsonIntro:
 	.string "When you lay your eyes on my POKéMON's\n"
