@@ -920,6 +920,7 @@ u8 *MonSpritesGfxManager_GetSpritePtr(u8 managerId, u8 spriteNum);
 u16 GetFormSpeciesId(enum Species speciesId, u8 formId);
 u8 GetFormIdFromFormSpeciesId(u16 formSpeciesId);
 enum Species GetFormChangeTargetSpecies_Internal(struct FormChangeContext ctx);
+enum Species GetFormChangeTargetSpecies(struct Pokemon *mon, enum FormChanges method);
 bool32 DoesSpeciesHaveFormChangeMethod(enum Species species, enum FormChanges method);
 u16 MonTryLearningNewMoveEvolution(struct Pokemon *mon, bool8 firstMove);
 void RemoveIVIndexFromList(u8 *ivs, u8 selectedIv);
