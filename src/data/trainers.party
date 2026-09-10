@@ -243,7 +243,7 @@ Malamar
 Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wishiwashi
+Veluza
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3329,7 +3329,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3355,7 +3355,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Corsola
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3465,7 +3465,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Barraskewda
 Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3503,7 +3503,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3664,7 +3664,11 @@ Wailmer
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wishiwashi
+Arrokuda
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Finizen
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3677,12 +3681,8 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 38
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Arrokuda
-Level:38
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_TONY_3 ===
@@ -3694,11 +3694,11 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 40
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Barraskewda
+Arrokuda
 Level: 40
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -3715,7 +3715,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 43
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -3736,7 +3736,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wishiwashi
+Wishiwashi School
 Level: 45
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -6021,7 +6021,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Ice Beam
 - Aqua Ring
 
-Wishiwashi @ Chesto Berry
+Wishiwashi School @ Chesto Berry
 Level: 50
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Aqua Tail
@@ -18426,7 +18426,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sleep Talk
 - Order Up
 
-Wishiwashi @ Figy Berry
+Wishiwashi School @ Figy Berry
 Level: 55
 Nature: Quiet
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe

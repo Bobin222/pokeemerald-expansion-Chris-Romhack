@@ -18,8 +18,11 @@ MauvilleCity_EventScript_CheckShowDynamaxGuy:
 	clearflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 	return
 
-MauvilleCity_EventScript_DynamaxGuyNotices::
+MauvilleCity_EventScript_DynamaxGuyNotices:
 	lockall
+	goto_if_not_set FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerNoticesGuy
+	waitmovement 0
 	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
 	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyNotices
 	waitmovement 0
@@ -55,6 +58,14 @@ MauvilleCity_Movement_DynamaxGuyRunsOff:
 	walk_fast_left
 	walk_fast_left
 	step_end
+
+MauvilleCity_Movement_PlayerNoticesGuy:
+	walk_in_place_faster_down
+	step_end
+
+MauvilleCity_EventScript_DynamaxGuyDoNothing:
+	releaseall
+	end
 
 MauvilleCity_EventScript_MoveWattsonBackToGym::
 	clearflag FLAG_HIDE_MAUVILLE_GYM_WATTSON
