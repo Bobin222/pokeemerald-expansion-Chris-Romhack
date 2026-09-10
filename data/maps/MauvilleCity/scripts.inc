@@ -18,7 +18,7 @@ MauvilleCity_EventScript_CheckShowDynamaxGuy:
 	clearflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 	return
 
-MauvilleCity_EventScript_DynamaxGuyNotices:
+MauvilleCity_EventScript_DynamaxGuyNotices::
 	lockall
 	goto_if_unset FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
 	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerNoticesGuy
