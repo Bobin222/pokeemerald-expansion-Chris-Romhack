@@ -69,6 +69,7 @@ enum ItemTMHMOrEvolutionStone
     ITEM_IS_OTHER,
     ITEM_IS_TM_HM,
     ITEM_IS_EVOLUTION_STONE,
+    ITEM_IS_GMAX_MUSHROOM,
 };
 
 #endif // GUARD_ITEM_USE_H

@@ -1176,11 +1176,18 @@ static bool8 DisplayPartyPokemonDataForMoveTutorOrEvolutionItem(u8 slot)
         {
         default:
             return FALSE;
-        case ITEM_IS_TM_HM: // TM/HM
+        case ITEM_IS_TM_HM:
             DisplayPartyPokemonDataToTeachMove(slot, ItemIdToBattleMoveId(item));
             break;
-        case ITEM_IS_EVOLUTION_STONE: // Evolution stone
+        case ITEM_IS_EVOLUTION_STONE:
             if (!GetMonData(currentPokemon, MON_DATA_IS_EGG) && GetEvolutionTargetSpecies(currentPokemon, EVO_MODE_ITEM_CHECK, item, NULL, NULL, CHECK_EVO) != SPECIES_NONE)
+                return FALSE;
+            DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NO_USE);
+            break;
+        case ITEM_IS_GMAX_MUSHROOM:
+            if (!GetMonData(currentPokemon, MON_DATA_IS_EGG)
+                && GetGigantamaxTargetSpecies(GetMonData(currentPokemon, MON_DATA_SPECIES)) != GetMonData(currentPokemon, MON_DATA_SPECIES)
+                && !GetMonData(currentPokemon, MON_DATA_GIGANTAMAX_FACTOR))
                 return FALSE;
             DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NO_USE);
             break;
@@ -1664,6 +1671,23 @@ static bool8 DoesSelectedMonKnowHM(u8 *slotPtr)
             return TRUE;
     }
     return FALSE;
+}
+
+static enum Species GetGigantamaxTargetSpecies(enum Species species)
+{
+    const struct FormChange *formChanges = GetSpeciesFormChanges(species);
+    u32 i;
+
+    if (formChanges == NULL)
+        return species;
+
+    for (i = 0; formChanges[i].method != FORM_CHANGE_TERMINATOR; i++)
+    {
+        if (formChanges[i].method == FORM_CHANGE_BATTLE_GIGANTAMAX)
+            return formChanges[i].targetSpecies;
+    }
+
+    return species;
 }
 
 static void HandleChooseMonCancel(u8 taskId, s8 *slotPtr)
@@ -5046,7 +5070,7 @@ void ItemUseCB_GMaxMushroom(u8 taskId, TaskFunc task)
 {
     struct Pokemon *mon = &gParties[B_TRAINER_PLAYER][gPartyMenu.slotId];
     enum Species currentSpecies = GetMonData(mon, MON_DATA_SPECIES);
-    enum Species targetSpecies = GetFormChangeTargetSpecies(mon, FORM_CHANGE_BATTLE_GIGANTAMAX);
+    enum Species targetSpecies = GetGigantamaxTargetSpecies(currentSpecies);
     bool32 alreadyHasFactor = GetMonData(mon, MON_DATA_GIGANTAMAX_FACTOR);
 
     PlaySE(SE_SELECT);

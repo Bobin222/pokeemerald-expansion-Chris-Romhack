@@ -226,6 +226,8 @@ u8 CheckIfItemIsTMHMOrEvolutionStone(enum Item itemId)
         return ITEM_IS_TM_HM;
     else if (GetItemFieldFunc(itemId) == ItemUseOutOfBattle_EvolutionStone)
         return ITEM_IS_EVOLUTION_STONE;
+    else if (GetItemFieldFunc(itemId) == ItemUseOutOfBattle_GMaxMushroom)
+        return ITEM_IS_GMAX_MUSHROOM;
     else
         return ITEM_IS_OTHER;
 }
