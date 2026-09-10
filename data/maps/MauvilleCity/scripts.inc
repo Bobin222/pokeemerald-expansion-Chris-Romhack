@@ -20,7 +20,7 @@ MauvilleCity_EventScript_CheckShowDynamaxGuy:
 
 MauvilleCity_EventScript_DynamaxGuyNotices:
 	lockall
-	goto_if_not_set FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
+	goto_if_unset FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
 	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerNoticesGuy
 	waitmovement 0
 	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
