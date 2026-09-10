@@ -5685,35 +5685,29 @@ Double Battle: No
 AI: Basic Trainer
 
 Makuhita
-Level: 18
+Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Arm Thrust
 - Vital Throw
-- Reversal
+- Bullet Punch
 - Bulk Up
 
 Pancham
 Level: 17
-- Thief
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Power Trip
 - Bulk Up
 - Low Sweep
 - Taunt
 
-Pawmo
-Level: 17
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Arm Thrust
-- Nuzzle
-- Bite
-- Bulk Up
-
-Passimian @ Sitrus Berry
-Level: 19
+Hitmonchan @ Sitrus Berry
+Ability: Keen Eye
+Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Focus Energy
-- Rock Slide
-- Reversal
 - Bulk Up
+- Thunder Punch
+- Mach Punch
+- Bullet Punch
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
