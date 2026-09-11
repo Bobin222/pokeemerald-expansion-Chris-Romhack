@@ -22,3 +22,4 @@ OldaleTown_House3_EventScript_CheckShowBerryMerchant:
 OldaleTown_House3_EventScript_CheckShowBattleMerchant:
 	clearflag FLAG_HIDE_OLDALE_TOWN_BATTLE_MERCHANT
 	return
+	
