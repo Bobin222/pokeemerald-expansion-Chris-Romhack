@@ -11741,7 +11741,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .teachableLearnset = sGrimerTeachableLearnset,
         .eggMoveLearnset = sGrimerEggMoveLearnset,
         .formSpeciesIdTable = sGrimerFormSpeciesIdTable,
-        .evolutions = EVOLUTION(28, SPECIES_MUK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 28, SPECIES_MUK}),
     },
 
     [SPECIES_MUK] =
