@@ -52,6 +52,39 @@
     }
   ],
   "coord_events": [],
-  "bg_events": [],
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "item": "ITEM_FIRE_STONE",
+      "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_STEVENS_ROOM_FIRE_STONE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_WATER_STONE",
+      "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_STEVENS_ROOM_WATER_STONE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "item": "ITEM_THUNDER_STONE",
+      "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_STEVENS_ROOM_THUNDER_STONE"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "item": "ITEM_ICE_STONE",
+      "flag": "FLAG_HIDDEN_ITEM_GRANITE_CAVE_STEVENS_ROOM_ICE_STONE"
+    }
+  ],
   "region": "REGION_HOENN"
 }
