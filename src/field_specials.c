@@ -1376,7 +1376,7 @@ void IsBugTypeInParty(void)
 
 void IsFairyTypeOnLead(void)
 {
-    struct Pokemon *pokemon = &gPlayerParty[GetLeadMonIndex()];
+    struct Pokemon *pokemon = &gParties[B_TRAINER_PLAYER][GetLeadMonIndex()];
     enum Species species = GetMonData(pokemon, MON_DATA_SPECIES);
     if (GetSpeciesType(species, 0) == TYPE_FAIRY || GetSpeciesType(species, 1) == TYPE_FAIRY)
         gSpecialVar_Result = TRUE;
@@ -1386,7 +1386,7 @@ void IsFairyTypeOnLead(void)
 
 void IsDragonTypeOnLead(void)
 {
-    struct Pokemon *pokemon = &gPlayerParty[GetLeadMonIndex()];
+    struct Pokemon *pokemon = &gParties[B_TRAINER_PLAYER][GetLeadMonIndex()];
     enum Species species = GetMonData(pokemon, MON_DATA_SPECIES);
     if (GetSpeciesType(species, 0) == TYPE_DRAGON || GetSpeciesType(species, 1) == TYPE_DRAGON)
         gSpecialVar_Result = TRUE;
@@ -1396,7 +1396,7 @@ void IsDragonTypeOnLead(void)
 
 void IsLeadMonAtFriendshipEvoThreshold(void)
 {
-    struct Pokemon *pokemon = &gPlayerParty[GetLeadMonIndex()];
+    struct Pokemon *pokemon = &gParties[B_TRAINER_PLAYER][GetLeadMonIndex()];
     u32 threshold = (P_FRIENDSHIP_EVO_THRESHOLD >= GEN_8) ? 160 : 220;
     if (GetMonData(pokemon, MON_DATA_FRIENDSHIP) >= threshold)
         gSpecialVar_Result = TRUE;
