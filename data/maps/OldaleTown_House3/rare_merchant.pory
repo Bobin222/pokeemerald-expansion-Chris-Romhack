@@ -165,7 +165,7 @@ script OldaleTown_EventScript_EvolutionMerchant {
 }
 
 text OldaleTown_Text_EvolutionMerchantGreeting {
-    format("Welcome! I handle everything evolution-related here — stones, held items, all of it. Take a look!")
+    format("Welcome! I handle everything evolution-related here; stones, held items, all of it. Take a look!")
 }
 
 mart OldaleTown_Pokemart_Evolution_Badge2 {
@@ -177,6 +177,13 @@ mart OldaleTown_Pokemart_Evolution_Badge2 {
     ITEM_SYRUPY_APPLE
     ITEM_TART_APPLE
     ITEM_SWEET_APPLE
+    ITEM_ICE_STONE
+    ITEM_THUNDER_STONE
+    ITEM_FIRE_STONE
+    ITEM_WATER_STONE
+    ITEM_LEAF_STONE
+    ITEM_MOON_STONE
+    ITEM_SUN_STONE
 }
 
 mart OldaleTown_Pokemart_Evolution_Badge4 {
