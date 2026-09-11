@@ -1,15 +1,23 @@
 script OldaleTown_EventScript_RareMerchant {
     lock
     faceplayer
-    msgbox(OldaleTown_Text_RareMerchantGreeting)
     if (flag(FLAG_BADGE08_GET)) {
-        pokemart(OldaleTown_Pokemart_RareMerchant_Tier4)
+        msgbox(OldaleTown_Text_RareMerchantLucrative)
     } elif (flag(FLAG_BADGE06_GET)) {
-        pokemart(OldaleTown_Pokemart_RareMerchant_Tier3)
-    } elif (flag(FLAG_BADGE04_GET)) {
-        pokemart(OldaleTown_Pokemart_RareMerchant_Tier2)
+        msgbox(OldaleTown_Text_RareMerchantPopular)
     } elif (flag(FLAG_BADGE02_GET)) {
-        pokemart(OldaleTown_Pokemart_RareMerchant_Tier1)
+        msgbox(OldaleTown_Text_RareMerchantGrowing)
+    } else {
+        msgbox(OldaleTown_Text_RareMerchantGreeting)
+    }
+    if (flag(FLAG_BADGE08_GET)) {
+        pokemart(OldaleTown_Pokemart_Misc_Badge8)
+    } elif (flag(FLAG_BADGE06_GET)) {
+        pokemart(OldaleTown_Pokemart_Misc_Badge6)
+    } elif (flag(FLAG_BADGE04_GET)) {
+        pokemart(OldaleTown_Pokemart_Misc_Badge4)
+    } elif (flag(FLAG_BADGE02_GET)) {
+        pokemart(OldaleTown_Pokemart_Misc_Badge2)
     } else {
         pokemart(OldaleTown_Pokemart_RareMerchant_Starter)
     }
@@ -19,6 +27,18 @@ script OldaleTown_EventScript_RareMerchant {
 
 text OldaleTown_Text_RareMerchantGreeting {
     format("Welcome to my little shop! We're a small but mighty operation right now, but we're planning on expanding into rare items!")
+}
+
+text OldaleTown_Text_RareMerchantGrowing {
+    format("Welcome back! Business has been so good, I had to bring in some help! Check out the other stalls, they specialize in stuff I just don't have room for anymore!")
+}
+
+text OldaleTown_Text_RareMerchantPopular {
+    format("You've probably noticed we've gotten pretty popular with trainers lately! I can barely keep up with demand!")
+}
+
+text OldaleTown_Text_RareMerchantLucrative {
+    format("Business is absolutely booming these days! Who knew rare items could be this lucrative? Thanks for shopping with us from the start!")
 }
 
 text OldaleTown_Text_RareMerchantComeAgain {
@@ -33,14 +53,8 @@ mart OldaleTown_Pokemart_RareMerchant_Starter {
     ITEM_ORAN_BERRY
 }
 
-mart OldaleTown_Pokemart_RareMerchant_Tier1 {
+mart OldaleTown_Pokemart_Misc_Badge2 {
     ITEM_ABILITY_CAPSULE
-    ITEM_ORAN_BERRY
-    ITEM_CHERI_BERRY
-    ITEM_CHESTO_BERRY
-    ITEM_PECHA_BERRY
-    ITEM_RAWST_BERRY
-    ITEM_PERSIM_BERRY
     ITEM_NET_BALL
     ITEM_TIMER_BALL
     ITEM_LUXURY_BALL
@@ -51,35 +65,12 @@ mart OldaleTown_Pokemart_RareMerchant_Tier1 {
     ITEM_FAST_BALL
     ITEM_LEVEL_BALL
     ITEM_HEAL_BALL
-    ITEM_FAIRY_FEATHER
     ITEM_EVERSTONE
-    ITEM_LEEK
-    ITEM_THICK_CLUB
-    ITEM_METAL_POWDER
-    ITEM_QUICK_POWDER
-    ITEM_LIGHT_BALL
     ITEM_SOOTHE_BELL
-    ITEM_OVAL_STONE
-    ITEM_CHIPPED_POT
-    ITEM_CRACKED_POT
-    ITEM_UNREMARKABLE_TEACUP
-    ITEM_MASTERPIECE_TEACUP
-    ITEM_SYRUPY_APPLE
-    ITEM_TART_APPLE
-    ITEM_SWEET_APPLE
-
 }
 
-mart OldaleTown_Pokemart_RareMerchant_Tier2 {
+mart OldaleTown_Pokemart_Misc_Badge4 {
     ITEM_ABILITY_CAPSULE
-    ITEM_ABILITY_PATCH
-    ITEM_ORAN_BERRY
-    ITEM_SITRUS_BERRY
-    ITEM_CHERI_BERRY
-    ITEM_CHESTO_BERRY
-    ITEM_PECHA_BERRY
-    ITEM_RAWST_BERRY
-    ITEM_PERSIM_BERRY
     ITEM_ABILITY_PATCH
     ITEM_NET_BALL
     ITEM_TIMER_BALL
@@ -93,64 +84,13 @@ mart OldaleTown_Pokemart_RareMerchant_Tier2 {
     ITEM_HEAL_BALL
     ITEM_QUICK_BALL
     ITEM_LOVE_BALL
-    ITEM_FAIRY_FEATHER
     ITEM_EVERSTONE
-    ITEM_LEEK
-    ITEM_THICK_CLUB
-    ITEM_METAL_POWDER
-    ITEM_QUICK_POWDER
-    ITEM_LIGHT_BALL
     ITEM_SOOTHE_BELL
-    ITEM_OVAL_STONE
-    ITEM_CHIPPED_POT
-    ITEM_CRACKED_POT
-    ITEM_UNREMARKABLE_TEACUP
-    ITEM_MASTERPIECE_TEACUP
-    ITEM_SYRUPY_APPLE
-    ITEM_TART_APPLE
-    ITEM_SWEET_APPLE
-    ITEM_ICE_STONE
-    ITEM_THUNDER_STONE
-    ITEM_FIRE_STONE
-    ITEM_WATER_STONE
-    ITEM_LEAF_STONE
-    ITEM_MOON_STONE
-    ITEM_SUN_STONE
-    ITEM_AUSPICIOUS_ARMOR
-    ITEM_MALICIOUS_ARMOR
-    ITEM_UPGRADE
-    ITEM_KINGS_ROCK
-    ITEM_RAZOR_CLAW
-    ITEM_RAZOR_FANG
-    ITEM_BLACK_AUGURITE
-    ITEM_STRAWBERRY_SWEET
-    ITEM_LOVE_SWEET
-    ITEM_BERRY_SWEET
-    ITEM_CLOVER_SWEET
-    ITEM_FLOWER_SWEET
-    ITEM_STAR_SWEET
-    ITEM_RIBBON_SWEET
-    ITEM_METAL_COAT
-    ITEM_ROTOM_CATALOG
-    ITEM_GALARICA_CUFF
-    ITEM_GALARICA_WREATH
-    ITEM_DRAGON_SCALE
-
-
 }
 
-mart OldaleTown_Pokemart_RareMerchant_Tier3 {
+mart OldaleTown_Pokemart_Misc_Badge6 {
     ITEM_ABILITY_CAPSULE
     ITEM_ABILITY_PATCH
-    ITEM_ORAN_BERRY
-    ITEM_SITRUS_BERRY
-    ITEM_CHERI_BERRY
-    ITEM_LUM_BERRY
-    ITEM_LEPPA_BERRY
-    ITEM_CHESTO_BERRY
-    ITEM_PECHA_BERRY
-    ITEM_RAWST_BERRY
-    ITEM_PERSIM_BERRY
     ITEM_NET_BALL
     ITEM_TIMER_BALL
     ITEM_LUXURY_BALL
@@ -163,75 +103,27 @@ mart OldaleTown_Pokemart_RareMerchant_Tier3 {
     ITEM_HEAL_BALL
     ITEM_QUICK_BALL
     ITEM_LOVE_BALL
-    ITEM_FAIRY_FEATHER
     ITEM_EVERSTONE
-    ITEM_LEEK
-    ITEM_THICK_CLUB
-    ITEM_METAL_POWDER
-    ITEM_QUICK_POWDER
-    ITEM_LIGHT_BALL
     ITEM_SOOTHE_BELL
-    ITEM_OVAL_STONE
-    ITEM_CHIPPED_POT
-    ITEM_CRACKED_POT
-    ITEM_UNREMARKABLE_TEACUP
-    ITEM_MASTERPIECE_TEACUP
-    ITEM_SYRUPY_APPLE
-    ITEM_TART_APPLE
-    ITEM_SWEET_APPLE
-    ITEM_ICE_STONE
-    ITEM_THUNDER_STONE
-    ITEM_FIRE_STONE
-    ITEM_WATER_STONE
-    ITEM_LEAF_STONE
-    ITEM_MOON_STONE
-    ITEM_SUN_STONE
-    ITEM_AUSPICIOUS_ARMOR
-    ITEM_MALICIOUS_ARMOR
-    ITEM_UPGRADE
-    ITEM_KINGS_ROCK
-    ITEM_RAZOR_CLAW
-    ITEM_RAZOR_FANG
-    ITEM_BLACK_AUGURITE
-    ITEM_STRAWBERRY_SWEET
-    ITEM_LOVE_SWEET
-    ITEM_BERRY_SWEET
-    ITEM_CLOVER_SWEET
-    ITEM_FLOWER_SWEET
-    ITEM_STAR_SWEET
-    ITEM_RIBBON_SWEET
-    ITEM_METAL_COAT
-    ITEM_ROTOM_CATALOG
-    ITEM_GALARICA_CUFF
-    ITEM_GALARICA_WREATH
-    ITEM_DEEP_SEA_TOOTH
-    ITEM_DEEP_SEA_SCALE
-    ITEM_PRISM_SCALE
-    ITEM_PEAT_BLOCK
-    ITEM_METAL_ALLOY
-    ITEM_SCROLL_OF_DARKNESS
-    ITEM_SCROLL_OF_WATERS
-    ITEM_DUBIOUS_DISC
-    ITEM_ELECTIRIZER
-    ITEM_MAGMARIZER
-    ITEM_PROTECTOR
-    ITEM_DRAGON_SCALE
-    ITEM_REAPER_CLOTH
-
 }
 
-mart OldaleTown_Pokemart_RareMerchant_Tier4 {
+mart OldaleTown_Pokemart_Misc_Badge8 {
     ITEM_ABILITY_CAPSULE
     ITEM_ABILITY_PATCH
-    ITEM_ORAN_BERRY
-    ITEM_SITRUS_BERRY
-    ITEM_CHERI_BERRY
-    ITEM_LUM_BERRY
-    ITEM_LEPPA_BERRY
-    ITEM_CHESTO_BERRY
-    ITEM_PECHA_BERRY
-    ITEM_RAWST_BERRY
-    ITEM_PERSIM_BERRY
+    ITEM_NET_BALL
+    ITEM_TIMER_BALL
+    ITEM_LUXURY_BALL
+    ITEM_LURE_BALL
+    ITEM_REPEAT_BALL
+    ITEM_DUSK_BALL
+    ITEM_HEAVY_BALL
+    ITEM_FAST_BALL
+    ITEM_LEVEL_BALL
+    ITEM_HEAL_BALL
+    ITEM_QUICK_BALL
+    ITEM_LOVE_BALL
+    ITEM_EVERSTONE
+    ITEM_SOOTHE_BELL
     ITEM_LONELY_MINT
     ITEM_ADAMANT_MINT
     ITEM_NAUGHTY_MINT
@@ -253,26 +145,41 @@ mart OldaleTown_Pokemart_RareMerchant_Tier4 {
     ITEM_JOLLY_MINT
     ITEM_NAIVE_MINT
     ITEM_SERIOUS_MINT
-    ITEM_NET_BALL
-    ITEM_TIMER_BALL
-    ITEM_LUXURY_BALL
-    ITEM_LURE_BALL
-    ITEM_DUSK_BALL
-    ITEM_REPEAT_BALL
-    ITEM_HEAVY_BALL
-    ITEM_FAST_BALL
-    ITEM_LEVEL_BALL
-    ITEM_HEAL_BALL
-    ITEM_QUICK_BALL
-    ITEM_LOVE_BALL
-    ITEM_FAIRY_FEATHER
-    ITEM_EVERSTONE
-    ITEM_LEEK
-    ITEM_THICK_CLUB
-    ITEM_METAL_POWDER
-    ITEM_QUICK_POWDER
-    ITEM_LIGHT_BALL
-    ITEM_SOOTHE_BELL
+}
+
+script OldaleTown_EventScript_EvolutionMerchant {
+    lock
+    faceplayer
+    msgbox(OldaleTown_Text_EvolutionMerchantGreeting)
+    if (flag(FLAG_BADGE08_GET)) {
+        pokemart(OldaleTown_Pokemart_Evolution_Badge8)
+    } elif (flag(FLAG_BADGE06_GET)) {
+        pokemart(OldaleTown_Pokemart_Evolution_Badge6)
+    } elif (flag(FLAG_BADGE04_GET)) {
+        pokemart(OldaleTown_Pokemart_Evolution_Badge4)
+    } else {
+        pokemart(OldaleTown_Pokemart_Evolution_Badge2)
+    }
+    msgbox(OldaleTown_Text_RareMerchantComeAgain)
+    release
+}
+
+text OldaleTown_Text_EvolutionMerchantGreeting {
+    format("Welcome! I handle everything evolution-related here — stones, held items, all of it. Take a look!")
+}
+
+mart OldaleTown_Pokemart_Evolution_Badge2 {
+    ITEM_OVAL_STONE
+    ITEM_CHIPPED_POT
+    ITEM_CRACKED_POT
+    ITEM_UNREMARKABLE_TEACUP
+    ITEM_MASTERPIECE_TEACUP
+    ITEM_SYRUPY_APPLE
+    ITEM_TART_APPLE
+    ITEM_SWEET_APPLE
+}
+
+mart OldaleTown_Pokemart_Evolution_Badge4 {
     ITEM_OVAL_STONE
     ITEM_CHIPPED_POT
     ITEM_CRACKED_POT
@@ -306,6 +213,44 @@ mart OldaleTown_Pokemart_RareMerchant_Tier4 {
     ITEM_ROTOM_CATALOG
     ITEM_GALARICA_CUFF
     ITEM_GALARICA_WREATH
+    ITEM_DRAGON_SCALE
+}
+
+mart OldaleTown_Pokemart_Evolution_Badge6 {
+    ITEM_OVAL_STONE
+    ITEM_CHIPPED_POT
+    ITEM_CRACKED_POT
+    ITEM_UNREMARKABLE_TEACUP
+    ITEM_MASTERPIECE_TEACUP
+    ITEM_SYRUPY_APPLE
+    ITEM_TART_APPLE
+    ITEM_SWEET_APPLE
+    ITEM_ICE_STONE
+    ITEM_THUNDER_STONE
+    ITEM_FIRE_STONE
+    ITEM_WATER_STONE
+    ITEM_LEAF_STONE
+    ITEM_MOON_STONE
+    ITEM_SUN_STONE
+    ITEM_AUSPICIOUS_ARMOR
+    ITEM_MALICIOUS_ARMOR
+    ITEM_UPGRADE
+    ITEM_KINGS_ROCK
+    ITEM_RAZOR_CLAW
+    ITEM_RAZOR_FANG
+    ITEM_BLACK_AUGURITE
+    ITEM_STRAWBERRY_SWEET
+    ITEM_LOVE_SWEET
+    ITEM_BERRY_SWEET
+    ITEM_CLOVER_SWEET
+    ITEM_FLOWER_SWEET
+    ITEM_STAR_SWEET
+    ITEM_RIBBON_SWEET
+    ITEM_METAL_COAT
+    ITEM_ROTOM_CATALOG
+    ITEM_GALARICA_CUFF
+    ITEM_GALARICA_WREATH
+    ITEM_DRAGON_SCALE
     ITEM_DEEP_SEA_TOOTH
     ITEM_DEEP_SEA_SCALE
     ITEM_PRISM_SCALE
@@ -317,7 +262,55 @@ mart OldaleTown_Pokemart_RareMerchant_Tier4 {
     ITEM_ELECTIRIZER
     ITEM_MAGMARIZER
     ITEM_PROTECTOR
+    ITEM_REAPER_CLOTH
+}
+
+mart OldaleTown_Pokemart_Evolution_Badge8 {
+    ITEM_OVAL_STONE
+    ITEM_CHIPPED_POT
+    ITEM_CRACKED_POT
+    ITEM_UNREMARKABLE_TEACUP
+    ITEM_MASTERPIECE_TEACUP
+    ITEM_SYRUPY_APPLE
+    ITEM_TART_APPLE
+    ITEM_SWEET_APPLE
+    ITEM_ICE_STONE
+    ITEM_THUNDER_STONE
+    ITEM_FIRE_STONE
+    ITEM_WATER_STONE
+    ITEM_LEAF_STONE
+    ITEM_MOON_STONE
+    ITEM_SUN_STONE
+    ITEM_AUSPICIOUS_ARMOR
+    ITEM_MALICIOUS_ARMOR
+    ITEM_UPGRADE
+    ITEM_KINGS_ROCK
+    ITEM_RAZOR_CLAW
+    ITEM_RAZOR_FANG
+    ITEM_BLACK_AUGURITE
+    ITEM_STRAWBERRY_SWEET
+    ITEM_LOVE_SWEET
+    ITEM_BERRY_SWEET
+    ITEM_CLOVER_SWEET
+    ITEM_FLOWER_SWEET
+    ITEM_STAR_SWEET
+    ITEM_RIBBON_SWEET
+    ITEM_METAL_COAT
+    ITEM_ROTOM_CATALOG
+    ITEM_GALARICA_CUFF
+    ITEM_GALARICA_WREATH
     ITEM_DRAGON_SCALE
+    ITEM_DEEP_SEA_TOOTH
+    ITEM_DEEP_SEA_SCALE
+    ITEM_PRISM_SCALE
+    ITEM_PEAT_BLOCK
+    ITEM_METAL_ALLOY
+    ITEM_SCROLL_OF_DARKNESS
+    ITEM_SCROLL_OF_WATERS
+    ITEM_DUBIOUS_DISC
+    ITEM_ELECTIRIZER
+    ITEM_MAGMARIZER
+    ITEM_PROTECTOR
     ITEM_REAPER_CLOTH
     ITEM_GRISEOUS_ORB
     ITEM_REVEAL_GLASS
@@ -327,5 +320,100 @@ mart OldaleTown_Pokemart_RareMerchant_Tier4 {
     ITEM_REINS_OF_UNITY
     ITEM_SOUL_DEW
     ITEM_PRISON_BOTTLE
+}
 
+script OldaleTown_EventScript_BerryMerchant {
+    lock
+    faceplayer
+    msgbox(OldaleTown_Text_BerryMerchantGreeting)
+    if (flag(FLAG_BADGE06_GET)) {
+        pokemart(OldaleTown_Pokemart_Berry_Badge6)
+    } elif (flag(FLAG_BADGE04_GET)) {
+        pokemart(OldaleTown_Pokemart_Berry_Badge4)
+    } else {
+        pokemart(OldaleTown_Pokemart_Berry_Badge2)
+    }
+    msgbox(OldaleTown_Text_RareMerchantComeAgain)
+    release
+}
+
+text OldaleTown_Text_BerryMerchantGreeting {
+    format("Fresh berries, right here! Great for healing up your team on the go.")
+}
+
+mart OldaleTown_Pokemart_Berry_Badge2 {
+    ITEM_ORAN_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_PERSIM_BERRY
+}
+
+mart OldaleTown_Pokemart_Berry_Badge4 {
+    ITEM_ORAN_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_PERSIM_BERRY
+    ITEM_SITRUS_BERRY
+}
+
+mart OldaleTown_Pokemart_Berry_Badge6 {
+    ITEM_ORAN_BERRY
+    ITEM_CHERI_BERRY
+    ITEM_CHESTO_BERRY
+    ITEM_PECHA_BERRY
+    ITEM_RAWST_BERRY
+    ITEM_PERSIM_BERRY
+    ITEM_SITRUS_BERRY
+    ITEM_LUM_BERRY
+    ITEM_LEPPA_BERRY
+}
+
+script OldaleTown_EventScript_BattleMerchant {
+    lock
+    faceplayer
+    msgbox(OldaleTown_Text_BattleMerchantGreeting)
+    if (flag(FLAG_BADGE08_GET)) {
+        pokemart(OldaleTown_Pokemart_Battle_Badge8)
+    } elif (flag(FLAG_BADGE06_GET)) {
+        pokemart(OldaleTown_Pokemart_Battle_Badge6)
+    } else {
+        pokemart(OldaleTown_Pokemart_Battle_Badge4)
+    }
+    msgbox(OldaleTown_Text_RareMerchantComeAgain)
+    release
+}
+
+text OldaleTown_Text_BattleMerchantGreeting {
+    format("Looking to gear up for battle? These held items can make a real difference out there.")
+}
+
+mart OldaleTown_Pokemart_Battle_Badge4 {
+    ITEM_FAIRY_FEATHER
+    ITEM_LEEK
+    ITEM_THICK_CLUB
+    ITEM_METAL_POWDER
+    ITEM_QUICK_POWDER
+    ITEM_LIGHT_BALL
+}
+
+mart OldaleTown_Pokemart_Battle_Badge6 {
+    ITEM_FAIRY_FEATHER
+    ITEM_LEEK
+    ITEM_THICK_CLUB
+    ITEM_METAL_POWDER
+    ITEM_QUICK_POWDER
+    ITEM_LIGHT_BALL
+}
+
+mart OldaleTown_Pokemart_Battle_Badge8 {
+    ITEM_FAIRY_FEATHER
+    ITEM_LEEK
+    ITEM_THICK_CLUB
+    ITEM_METAL_POWDER
+    ITEM_QUICK_POWDER
+    ITEM_LIGHT_BALL
 }

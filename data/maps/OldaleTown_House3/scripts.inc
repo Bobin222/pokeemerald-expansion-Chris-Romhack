@@ -1,2 +1,24 @@
 OldaleTown_House3_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, OldaleTown_House3_OnTransition
 	.byte 0
+
+OldaleTown_House3_OnTransition:
+	setflag FLAG_HIDE_OLDALE_TOWN_EVOLUTION_MERCHANT
+	call_if_set FLAG_BADGE02_GET, OldaleTown_House3_EventScript_CheckShowEvolutionMerchant
+	setflag FLAG_HIDE_OLDALE_TOWN_BERRY_MERCHANT
+	call_if_set FLAG_BADGE02_GET, OldaleTown_House3_EventScript_CheckShowBerryMerchant
+	setflag FLAG_HIDE_OLDALE_TOWN_BATTLE_MERCHANT
+	call_if_set FLAG_BADGE04_GET, OldaleTown_House3_EventScript_CheckShowBattleMerchant
+	end
+
+OldaleTown_House3_EventScript_CheckShowEvolutionMerchant:
+	clearflag FLAG_HIDE_OLDALE_TOWN_EVOLUTION_MERCHANT
+	return
+
+OldaleTown_House3_EventScript_CheckShowBerryMerchant:
+	clearflag FLAG_HIDE_OLDALE_TOWN_BERRY_MERCHANT
+	return
+
+OldaleTown_House3_EventScript_CheckShowBattleMerchant:
+	clearflag FLAG_HIDE_OLDALE_TOWN_BATTLE_MERCHANT
+	return
