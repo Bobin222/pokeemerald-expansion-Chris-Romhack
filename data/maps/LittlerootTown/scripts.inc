@@ -36,6 +36,7 @@ LittlerootTown_MapScripts::
 
 LittlerootTown_OnTransition:
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
+	setflag FLAG_DYNAMAX_ANYWHERE
 	goto_if_set FLAG_BADGE03_GET, LittlerootTown_EventScript_SkipDynamaxGuyHide
 	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 LittlerootTown_EventScript_SkipDynamaxGuyHide:

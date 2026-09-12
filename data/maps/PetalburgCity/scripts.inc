@@ -10,7 +10,6 @@ PetalburgCity_OnTransition:
 	call_if_eq VAR_PETALBURG_CITY_STATE, 4, PetalburgCity_EventScript_DisableMapNameAndMusic
 	call_if_eq VAR_PETALBURG_GYM_STATE, 8, PetalburgCity_EventScript_SetGymDoorsUnlocked
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLY_GYM_BLOCK
-	setflag FLAG_DYNAMAX_ANYWHERE
 	call_if_set FLAG_BADGE04_GET, PetalburgCity_EventScript_CheckShowWallyBlock
 	end
 
