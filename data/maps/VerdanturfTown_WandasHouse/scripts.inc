@@ -20,7 +20,22 @@ VerdanturfTown_WandasHouse_EventScript_WallysUncle::
 	faceplayer
 	goto_if_set FLAG_DEFEATED_WALLY_VICTORY_ROAD, VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande
 	goto_if_set FLAG_DEFEATED_LAVARIDGE_GYM, VerdanturfTown_WandasHouse_EventScript_WallysUncleSlippedOff
+	goto_if_set FLAG_RECEIVED_Z_POWER_RING_FROM_WALLYS_UNCLE, VerdanturfTown_WandasHouse_EventScript_WallysUncleAlreadyGaveRing
 	msgbox VerdanturfTown_WandasHouse_Text_WallysNextDoor, MSGBOX_DEFAULT
+	goto_if_set FLAG_DEFEATED_WALLY_MAUVILLE, VerdanturfTown_WandasHouse_EventScript_WallysUncleGiveZPowerRing
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysUncleGiveZPowerRing::
+	msgbox VerdanturfTown_WandasHouse_Text_UncleProudGiveZPowerRing, MSGBOX_DEFAULT
+	giveitem ITEM_Z_POWER_RING
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_Z_POWER_RING_FROM_WALLYS_UNCLE
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WallysUncleAlreadyGaveRing::
+	msgbox VerdanturfTown_WandasHouse_Text_UncleGladWallyDoingWell, MSGBOX_DEFAULT
 	release
 	end
 
@@ -110,6 +125,19 @@ VerdanturfTown_WandasHouse_Text_WallysNextDoor:
 	.string "Maybe it's not just the environment.\n"
 	.string "It could be POKéMON that are giving\l"
 	.string "the boy hope.$"
+
+VerdanturfTown_WandasHouse_Text_UncleProudGiveZPowerRing:
+	.string "I also wanted to thank you for all\n"
+	.string "your help with RYAN.\p"
+	.string "Here, I got a couple of these from\n"
+	.string "a relative in Alola.\p"
+	.string "I don't really know what they do,\n"
+	.string "but they're all the rage with\l"
+	.string "trainers over there!$"
+
+VerdanturfTown_WandasHouse_Text_UncleGladWallyDoingWell:
+	.string "I'm glad Wally is doing so well.\n"
+	.string "We have you to thank for that!$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
 	.string "RYAN's gone away…\n"
