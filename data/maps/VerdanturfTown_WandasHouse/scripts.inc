@@ -50,6 +50,17 @@ VerdanturfTown_WandasHouse_EventScript_WallysUncleEverGrande::
 	end
 
 VerdanturfTown_WandasHouse_EventScript_WandasBoyfriend::
+	goto_if_set FLAG_RECEIVED_MEGA_RING_FROM_WANDAS_BOYFRIEND, VerdanturfTown_WandasHouse_EventScript_WandasBoyfriendDefault
+	lock
+	faceplayer
+	msgbox VerdanturfTown_WandasHouse_Text_BoyfriendThanksGiveMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setflag FLAG_RECEIVED_MEGA_RING_FROM_WANDAS_BOYFRIEND
+	release
+	end
+
+VerdanturfTown_WandasHouse_EventScript_WandasBoyfriendDefault::
 	msgbox VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay, MSGBOX_NPC
 	end
 
@@ -165,6 +176,17 @@ VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "He'll be just fine.\p"
 	.string "I know my little cousin, and he has\n"
 	.string "POKéMON with him, too.$"
+
+VerdanturfTown_WandasHouse_Text_BoyfriendThanksGiveMegaRing:
+	.string "I really can't thank you enough!\p"
+	.string "I want you to have this, too!\p"
+	.string "That's a Mega Ring! It lets\n"
+	.string "POKéMON take on a new, stronger\l"
+	.string "form if you find the right\l"
+	.string "Mega Stones!\p"
+	.string "I thought it might help me turn\n"
+	.string "into a new form to move those\l"
+	.string "rocks, but oh well!$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
 	.string "Thanks to you, I can see my girlfriend\n"
