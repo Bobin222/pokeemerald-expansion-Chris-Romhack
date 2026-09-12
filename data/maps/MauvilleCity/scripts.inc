@@ -42,14 +42,28 @@ MauvilleCity_EventScript_DynamaxGuyIdle::
 	giveitem ITEM_DYNAMAX_BAND
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	closemessage
+	specialvar VAR_RESULT, GetPlayerFacingDirection
+	goto_if_eq VAR_RESULT, DIR_NORTH, MauvilleCity_EventScript_DynamaxGuyStepAsideAndRunOff
 	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyRunsOff
 	waitmovement 0
+	goto MauvilleCity_EventScript_DynamaxGuyIdleFinish
+
+MauvilleCity_EventScript_DynamaxGuyStepAsideAndRunOff:
+	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerStepAsideForGuy
+	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyRunsOff
+	waitmovement 0
+
+MauvilleCity_EventScript_DynamaxGuyIdleFinish:
 	removeobject LOCALID_DYNAMAX_BAND_GUY
 	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
 	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 MauvilleCity_EventScript_DynamaxGuyIdleDone:
 	release
 	end
+
+MauvilleCity_Movement_PlayerStepAsideForGuy:
+	walk_down
+	step_end
 
 MauvilleCity_Movement_DynamaxGuyNotices:
 	face_left
