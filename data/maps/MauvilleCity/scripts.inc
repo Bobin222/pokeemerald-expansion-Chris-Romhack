@@ -14,6 +14,7 @@ MauvilleCity_OnTransition:
 
 MauvilleCity_EventScript_DynamaxGuyNotices::
 	lockall
+	goto_if_unset FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
 	checkitem ITEM_DYNAMAX_BAND
 	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_EventScript_DynamaxGuyDoNothing
 	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerNoticesGuy
@@ -33,6 +34,17 @@ MauvilleCity_EventScript_DynamaxGuyNotices::
 	end
 
 MauvilleCity_EventScript_DynamaxGuyIdle::
+	lock
+	faceplayer
+	checkitem ITEM_DYNAMAX_BAND
+	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_EventScript_DynamaxGuyIdleDone
+	msgbox MauvilleCity_Text_DynamaxBandGuy, MSGBOX_DEFAULT
+	giveitem ITEM_DYNAMAX_BAND
+	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
+	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
+MauvilleCity_EventScript_DynamaxGuyIdleDone:
+	release
 	end
 
 MauvilleCity_Movement_DynamaxGuyNotices:

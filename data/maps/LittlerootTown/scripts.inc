@@ -36,6 +36,9 @@ LittlerootTown_MapScripts::
 
 LittlerootTown_OnTransition:
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
+	goto_if_set FLAG_BADGE03_GET, LittlerootTown_EventScript_SkipDynamaxGuyHide
+	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
+LittlerootTown_EventScript_SkipDynamaxGuyHide:
 	call Common_EventScript_SetupRivalGfxId
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 2, LittlerootTown_EventScript_MoveMomToMaysDoor
 	call_if_unset FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_SetTwinPos
