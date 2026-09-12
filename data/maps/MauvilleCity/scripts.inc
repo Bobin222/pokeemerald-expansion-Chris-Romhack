@@ -41,6 +41,10 @@ MauvilleCity_EventScript_DynamaxGuyIdle::
 	msgbox MauvilleCity_Text_DynamaxBandGuy, MSGBOX_DEFAULT
 	giveitem ITEM_DYNAMAX_BAND
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
+	closemessage
+	applymovement LOCALID_DYNAMAX_BAND_GUY, MauvilleCity_Movement_DynamaxGuyRunsOff
+	waitmovement 0
+	removeobject LOCALID_DYNAMAX_BAND_GUY
 	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
 	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 MauvilleCity_EventScript_DynamaxGuyIdleDone:
