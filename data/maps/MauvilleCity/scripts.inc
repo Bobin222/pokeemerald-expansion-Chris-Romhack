@@ -8,19 +8,14 @@ MauvilleCity_OnTransition:
 	clearflag FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION
 	setflag FLAG_SYS_TV_START
 	clearflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
-	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
-	call_if_set FLAG_BADGE03_GET, MauvilleCity_EventScript_CheckShowDynamaxGuy
 	setvar VAR_MAUVILLE_GYM_STATE, 0
 	call_if_set FLAG_GOT_TM_THUNDERBOLT_FROM_WATTSON, MauvilleCity_EventScript_MoveWattsonBackToGym
 	end
 
-MauvilleCity_EventScript_CheckShowDynamaxGuy:
-	clearflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
-	return
-
 MauvilleCity_EventScript_DynamaxGuyNotices::
 	lockall
-	goto_if_unset FLAG_BADGE03_GET, MauvilleCity_EventScript_DynamaxGuyDoNothing
+	checkitem ITEM_DYNAMAX_BAND
+	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_EventScript_DynamaxGuyDoNothing
 	applymovement LOCALID_PLAYER, MauvilleCity_Movement_PlayerNoticesGuy
 	waitmovement 0
 	setvar VAR_DYNAMAX_GUY_ENCOUNTER, 1
@@ -35,6 +30,9 @@ MauvilleCity_EventScript_DynamaxGuyNotices::
 	removeobject LOCALID_DYNAMAX_BAND_GUY
 	setflag FLAG_HIDE_MAUVILLE_CITY_DYNAMAX_GUY
 	releaseall
+	end
+
+MauvilleCity_EventScript_DynamaxGuyIdle::
 	end
 
 MauvilleCity_Movement_DynamaxGuyNotices:
