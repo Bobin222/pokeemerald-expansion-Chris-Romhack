@@ -17876,63 +17876,63 @@
             "encounter_rate": 10,
             "mons": [
               {
-                "min_level": 33,
-                "max_level": 33,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_BELDUM"
               },
               {
-                "min_level": 35,
-                "max_level": 35,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_GLIMMORA"
               },
               {
-                "min_level": 33,
-                "max_level": 33,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_CARBINK"
               },
               {
-                "min_level": 35,
-                "max_level": 35,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_SOLROCK"
               },
               {
-                "min_level": 33,
-                "max_level": 33,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_MINIOR"
               },
               {
-                "min_level": 37,
-                "max_level": 37,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_CLAYDOL"
               },
               {
-                "min_level": 35,
-                "max_level": 35,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_BEHEEYEM"
               },
               {
-                "min_level": 39,
-                "max_level": 39,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_ONIX"
               },
               {
-                "min_level": 38,
-                "max_level": 38,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_STEELIX"
               },
               {
-                "min_level": 40,
-                "max_level": 40,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_METANG"
               },
               {
-                "min_level": 38,
-                "max_level": 38,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_METANG"
               },
               {
-                "min_level": 40,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_METAGROSS"
               }
             ]
