@@ -1834,21 +1834,46 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Dodrio
-Level: 52
+Electrode Hisui @ Focus Sash
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Electric Terrain
+- Light Screen
+- Reflect
+- Explosion
 
-Kadabra
-Level: 52
+Raichu Alola @ Scope Lens
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Psychic
+- Thunderbolt
+- Surf
+- Electric Terrain
 
-Electrode Hisui
-Level: 52
+Corviknight @ Life Orb
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spikes
+- Steel Wing
+- Brave Bird
+- Hone Claws
 
-Rhydon
-Level: 52
+Roserade @ Big Root
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Toxic
+- Giga Drain
+- Sludge Bomb
+- Synthesis
+
+Rhyperior @ Wide Lens
+Ability: Solid Rock
+Level: 64
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Earthquake
+- Megahorn
+- Rock Wrecker
+- Hammer Arm
 
 === TRAINER_OWEN ===
 Name: OWEN
@@ -6917,7 +6942,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Smart Trainer
+AI: Smart Trainer / Force Setup First Turn
 
 Pineco @ Oran Berry
 Level: 23
