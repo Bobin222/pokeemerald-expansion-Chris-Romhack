@@ -16786,7 +16786,6 @@ AI: Smart Trainer
 Golem Alola @ Air Balloon
 Level: 80
 Ability: Galvanize
-Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Stealth Rock
@@ -16848,7 +16847,6 @@ AI: Smart Trainer
 
 Iron Thorns @ Booster Energy
 Level: 85
-Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Stone Edge
 - Supercell Slam
@@ -16909,7 +16907,6 @@ AI: Smart Trainer
 
 Nihilego @ Black Sludge
 Level: 90
-Tera Type: Poison
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Sludge Bomb
 - Stealth Rock
@@ -17080,7 +17077,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Hariyama @ Sitrus Berry
 Level: 80
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tera Type: Fighting
 - Drain Punch
 - Heavy Slam
 - Belly Drum
@@ -17143,7 +17139,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Iron Hands @ Booster Energy
 Level: 85
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tera Type: Fighting
 - Drain Punch
 - Supercell Slam
 - Belly Drum
@@ -17195,7 +17190,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Iron Hands @ Booster Energy
 Level: 90
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tera Type: Fighting
 - Drain Punch
 - Supercell Slam
 - Belly Drum
@@ -17329,7 +17323,6 @@ Gigantamax: Yes
 
 Manectric @ Manectite
 Level: 80
-Tera Type: Electric
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Thunderbolt
@@ -17455,7 +17448,6 @@ Gigantamax: Yes
 Miraidon @ Life Orb
 Level: 90
 Ability: Hadron Engine
-Tera Type: Flying
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Draco Meteor
 - Electro Drift
@@ -17564,7 +17556,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Arcanine Hisui @ Focus Sash
 Level: 80
 Ability: Rock Head
-Tera Type: Fire
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz
 - Head Smash
@@ -17629,7 +17620,6 @@ Gigantamax: Yes
 Arcanine Hisui @ Focus Sash
 Level: 85
 Ability: Rock Head
-Tera Type: Fire
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz
 - Head Smash
@@ -17675,7 +17665,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Arcanine Hisui @ Focus Sash
 Level: 90
 Ability: Rock Head
-Tera Type: Fire
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flare Blitz
 - Head Smash
@@ -17837,7 +17826,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slaking @ Life Orb
 Level: 80
-Tera Type: Normal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Retaliate
 - Sucker Punch
@@ -17901,7 +17889,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Slaking @ Life Orb
 Level: 85
-Tera Type: Normal
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Retaliate
 - Sucker Punch
@@ -18409,7 +18396,6 @@ Iron Boulder @ Booster Energy
 Level: 85
 Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tera Type: Fighting
 - Swords Dance
 - Mighty Cleave
 - Earthquake
@@ -18456,7 +18442,6 @@ Iron Boulder @ Booster Energy
 Level: 90
 Ability: Quark Drive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Tera Type: Fighting
 - Swords Dance
 - Mighty Cleave
 - Earthquake
