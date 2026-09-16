@@ -1005,16 +1005,16 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Silicobra
-Level: 30
+Yamask Galar
+Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Hippopotas
-Level: 30
+Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Sandile
-Level:30
+Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CHIP ===
@@ -1074,13 +1074,18 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 27
-IVs: 7 HP / 7 Atk / 7 Def / 7 SpA / 7 SpD / 7 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Yamask Galar
+Level: 40
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Hippopotas
+Level: 40
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Krokorok
+Level: 40
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
 
 === TRAINER_DUSTY_3 ===
 Name: DUSTY
@@ -1091,13 +1096,21 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 30
-IVs: 8 HP / 8 Atk / 8 Def / 8 SpA / 8 SpD / 8 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Mudbray
+Level: 42
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Yamask Galar
+Level: 42
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Hippowdon
+Level: 42
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Krokorok
+Level: 42
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DUSTY_4 ===
 Name: DUSTY
@@ -1108,13 +1121,25 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 33
-IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Excadrill
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Yamask Galar
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Mudsdale
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Hippowdon
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Krokorok
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_DUSTY_5 ===
 Name: DUSTY
@@ -1125,13 +1150,25 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Sandslash
-Level: 36
-IVs: 10 HP / 10 Atk / 10 Def / 10 SpA / 10 SpD / 10 Spe
-- Dig
-- Slash
-- Sand Attack
-- Poison Sting
+Excadrill
+Level: 50
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Runerigus
+Level: 50
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Mudsdale
+Level: 50
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Hippowdon
+Level: 50
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Krokorok
+Level: 50
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GABBY_AND_TY_1 ===
 Name: GABBY & TY
@@ -1548,7 +1585,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Pidgeotto
-Level: 33
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Quick Attack
 - Agility
@@ -1565,7 +1602,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Cinccino
-Level: 33
+Level: 36
 Ability: Skill Link
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Bullet Seed
@@ -1583,7 +1620,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Vigoroth @ Sitrus Berry
-Level: 33
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Slack Off
 - Counter
@@ -1599,8 +1636,8 @@ Items: Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
-Vigoroth
-Level: 33
+Vigoroth @ Scope Lens
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Focus Energy
 - Slash
@@ -1956,7 +1993,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Herdier
-Level: 33
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rest
 - Sleep Talk
@@ -1973,7 +2010,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Girafarig
-Level: 33
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Psybeam
 - Stomp
@@ -1989,8 +2026,8 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Zangoose
-Level: 33
+Zangoose @ Leichi Berry
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Swords Dance
 - Slash
@@ -4187,11 +4224,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Numel
-Level: 30
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Magby
-Level: 30
+Level: 32
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Magmar
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JEFF ===
@@ -4204,11 +4245,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
-Level: 30
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Capsakid
-Level: 30
+Level: 32
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Charcadet
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_AXLE ===
@@ -4221,11 +4266,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Houndour
-Level: 30
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Growlithe Hisui
-Level: 30
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JACE ===
@@ -4238,7 +4283,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Raboot
-Level: 31
+Level: 32
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Combusken
+Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KEEGAN ===
@@ -4251,11 +4300,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Darumaka
-Level: 30
+Level: 32
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Pignite
-Level: 30
+Level: 32
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
@@ -4381,7 +4430,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Stunfisk Galar
-Level: 32
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAU ===
@@ -4394,15 +4443,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Sandile
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Roggenrola
-Level: 30
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rolycoly
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LARRY ===
@@ -5812,7 +5861,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Teeter Dance
 - Sunny Day
 
-Tauros Paldea Blaze
+Tauros Paldea Blaze @ Kings Rock
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Double Kick
@@ -10200,11 +10249,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Hippopotas
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cacnea
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BECKY ===
@@ -10217,11 +10266,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Mudbray
-Level: 31
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cufant
-Level: 31
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAROL ===
@@ -10892,7 +10941,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Carkol
-Level: 31
+Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ANNIKA ===
@@ -13905,7 +13954,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Kecleon
-Level: 31
+Level: 33
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Fury Swipes
@@ -13947,10 +13996,10 @@ Double Battle: No
 AI: Check Bad Move
 
 Hitmonchan
-Level: 31
+Level: 33
 Ability: Iron Fist
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
+- Bulk Up
 - Detect
 - Mach Punch
 - Fire Punch
@@ -16131,15 +16180,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Palpitoad
-Level: 30
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Maractus
-Level: 30
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mudbray
-Level: 30
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYAN ===
@@ -16152,15 +16201,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Nacli
-Level: 31
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Yamask Galar
-Level: 30
+Yamask
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Silicobra
-Level: 30
+Sigilyph
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRANDEN ===
@@ -16172,12 +16221,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Phanpy
-Level: 31
+Dwebble
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sigilyph
-Level: 32
+Hakamo o
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYANT ===
