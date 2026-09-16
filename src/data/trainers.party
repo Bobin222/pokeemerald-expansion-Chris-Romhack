@@ -5490,7 +5490,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
+AI: Smart Trainer
 Mugshot: Purple
 
 Obstagoon @ Wide Lens
@@ -5551,7 +5551,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 Mugshot: Green
 
 Mismagius @ Sitrus Berry
@@ -5610,7 +5610,7 @@ Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 Mugshot: Pink
 
 Ninetales Alola @ Icy Rock
@@ -5673,7 +5673,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 Mugshot: Blue
 
 Noivern @ Yache Berry
@@ -5885,7 +5885,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Greedent @ Sitrus Berry
 Level: 35
@@ -5936,7 +5936,7 @@ Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
 Double Battle: No
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
 Tropius @ Leftovers
 Level: 42
@@ -5986,7 +5986,7 @@ Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Oranguru @ Leftovers
 Level: 54
@@ -6044,7 +6044,7 @@ Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Dondozo @ Shell Bell
 Level: 60
@@ -6485,7 +6485,7 @@ Pic: Pokefan M
 Gender: Male
 Music: Twins
 Double Battle: No
-AI: Check Bad Move
+AI: Check Bad Move / Try to Faint
 
 Rookidee @ Oran Berry
 Level: 22
@@ -6917,10 +6917,18 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
+
+Pineco @ Oran Berry
+Level: 23
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Spikes
+- Stealth Rock
+- Rapid Spin
+- Selfdestruct
 
 Munna @ Oran Berry
-Level: 22
+Level: 23
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Psychic Terrain
 - Reflect
@@ -6928,7 +6936,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Confusion
 
 Togedemaru @ Oran Berry
-Level: 22
+Level: 23
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Electric Terrain
 - Nuzzle
@@ -6936,7 +6944,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fell Stinger
 
 Stunfisk Galar @ Sitrus Berry
-Level: 23
+Level: 24
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Terrain Pulse
 - Snap Trap
@@ -7452,7 +7460,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 Mugshot: Yellow
 
 Rapidash Galar @ Muscle Band
@@ -8827,15 +8835,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Doduo
-Level: 38
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Corvisquire
-Level: 38
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tropius
-Level: 38
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_HUMBERTO ===
@@ -8848,7 +8856,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Skarmory
-Level: 39
+Level: 43
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_PRESLEY ===
@@ -8877,12 +8885,12 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Kilowattrel
-Level: 38
+Fletchinder
+Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper
-Level: 38
+Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_COLIN ===
@@ -12084,16 +12092,16 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Seedot
-Level: 40
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 Nuzleaf
-Level: 40
+Level: 45
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Lombre
-Level: 40
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Shiftry
+Level: 45
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_SEBASTIAN ===
@@ -12246,16 +12254,16 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Force Setup First Turn
 
-Lotad
-Level: 40
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
 Lombre
-Level: 40
+Level: 45
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Nuzleaf
-Level: 40
+Level: 45
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Ludicolo
+Level: 45
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_SOPHIA ===
@@ -13130,17 +13138,13 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Basic Trainer / Try to Faint
 
 Poliwhirl
 Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Shroomish
-Level: 22
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-Charcadet
+Morgrem
 Level: 22
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -14063,21 +14067,13 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move / Try To Faint
 
-Nincada
-Level: 28
+Shedinja
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Life
-- Fury Swipes
-- Mind Reader
-- Dig
 
-Koffing
-Level: 28
+Venomoth
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Self Destruct
-- Sludge
-- Smokescreen
 
 === TRAINER_FLINT ===
 Name: FLINT
@@ -14089,11 +14085,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Pidgeotto
-Level: 38
+Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Xatu
-Level: 38
+Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_ASHLEY ===
@@ -14106,15 +14102,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Swablu
-Level: 38
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Trumbeak
-Level: 38
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wattrel
-Level: 38
+Kilowattrel
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_MAUVILLE ===
@@ -16701,7 +16697,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Golem Alola @ Air Balloon
 Level: 75
@@ -16760,7 +16756,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Golem Alola @ Air Balloon
 Level: 80
@@ -16823,7 +16819,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Iron Thorns @ Booster Energy
 Level: 85
@@ -16884,7 +16880,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Nihilego @ Black Sludge
 Level: 90
@@ -16945,7 +16941,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Machamp @ Assault Vest
 Level: 75
@@ -17008,7 +17004,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Pangoro @ Life Orb
 Level: 80
@@ -17073,7 +17069,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Buzzwole @ Life Orb
 Level: 85
@@ -17136,7 +17132,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Buzzwole @ Life Orb
 Level: 90
@@ -17198,7 +17194,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Electrode Hisui @ Terrain Extender
 Level: 75
@@ -17259,7 +17255,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Electrode Hisui @ Terrain Extender
 Level: 80
@@ -17323,7 +17319,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Sandy Shocks @ Booster Energy
 Level: 85
@@ -17385,7 +17381,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Sandy Shocks @ Booster Energy
 Level: 90
@@ -17449,7 +17445,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Torkoal @ Heat Rock
 Level: 75
@@ -17511,7 +17507,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Torkoal @ Heat Rock
 Level: 80
@@ -17576,7 +17572,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Volcarona @ Heat Rock
 Level: 85
@@ -17641,7 +17637,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Chi-Yu @ White Herb
 Level: 90
@@ -17705,7 +17701,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Snorlax @ Leftovers
 Level: 75
@@ -17767,7 +17763,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Snorlax @ Leftovers
 Level: 80
@@ -17831,7 +17827,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Snorlax @ Leftovers
 Level: 85
@@ -17895,7 +17891,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Snorlax @ Leftovers
 Level: 90
@@ -17959,7 +17955,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
 Tropius @ Sitrus Berry
 Level: 75
@@ -18022,7 +18018,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
 Togekiss @ Flyinium Z
 Level: 80
@@ -18087,7 +18083,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
 Togekiss @ Flyinium Z
 Level: 85
@@ -18150,7 +18146,7 @@ Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: Smart Trainer / Risky
 
 Landorus Therian @ Rocky Helmet
 Level: 90
@@ -18214,7 +18210,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Indeedee @ Light Clay
 Level: 75
@@ -18275,7 +18271,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Indeedee @ Light Clay
 Level: 80
@@ -18337,7 +18333,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Indeedee @ Light Clay
 Level: 85
@@ -18411,7 +18407,7 @@ Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Gardevoir @ Gardevoirite
 Level: 90
@@ -18476,7 +18472,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Tatsugiri @ Safety Goggles
 Level: 75
@@ -18538,7 +18534,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Tatsugiri @ Safety Goggles
 Level: 80
@@ -18602,7 +18598,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Tatsugiri @ Safety Goggles
 Level: 85
@@ -18667,7 +18663,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: Yes
-AI: Basic Trainer
+AI: Smart Trainer
 
 Tatsugiri @ Safety Goggles
 Level: 75
@@ -18760,7 +18756,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Gliscor
-Level: 39
+Level: 44
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_MATT_DEVELOPER ===
@@ -18770,10 +18766,10 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Basic Trainer / Check Bad Move / Try To Faint
+AI: Smart Trainer
 
 Swampert @ Leftovers
-Level: 85
+Level: 90
 Ability: Torrent
 EVs: 85 HP / 85 Atk / 85 Def / 84 SpA / 85 SpD / 84 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -18785,7 +18781,7 @@ Brave Nature
 
 Glaceon @ Bright Powder
 Ability: Snow Cloak
-Level: 85
+Level: 90
 EVs: 85 HP / 84 Atk / 85 Def / 85 SpA / 85 SpD / 84 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Modest Nature
@@ -18794,9 +18790,9 @@ Modest Nature
 - Shadow Ball
 - Freeze Dry
 
-Electivire @ Air Balloon
+Electivire @ Life Orb
 Ability: Motor Drive
-Level: 85
+Level: 90
 EVs: 85 HP / 85 Atk / 84 Def / 84 SpA / 85 SpD / 85 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Naive Nature
@@ -18807,7 +18803,7 @@ Naive Nature
 
 Urshifu @ Muscle Band
 Ability: Unseen Fist
-Level: 85
+Level: 90
 EVs: 85 HP / 85 Atk / 84 Def / 84 SpA / 85 SpD / 85 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Dynamax Level: 10
@@ -18820,7 +18816,7 @@ Jolly Nature
 
 Krookodile @ Groundium Z
 Ability: Intimidate
-Level: 85
+Level: 90
 EVs: 85 HP / 85 Atk / 85 Def / 84 SpA / 84 SpD / 85 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Jolly Nature
@@ -18831,7 +18827,7 @@ Jolly Nature
 
 Blaziken @ Blazikenite
 Ability: Blaze
-Level: 85
+Level: 91
 Shiny: Yes
 EVs: 85 HP / 85 Atk / 84 Def / 85 SpA / 84 SpD / 85 Spe
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -18849,7 +18845,7 @@ Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Stakataka @ Focus Sash
 Level: 85
