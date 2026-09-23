@@ -3607,7 +3607,7 @@
               {
                 "min_level": 6,
                 "max_level": 9,
-                "species": "SPECIES_PONYTA_GALAR"
+                "species": "SPECIES_PAWMI"
               },
               {
                 "min_level": 6,
@@ -3868,7 +3868,7 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_PAWMI"
+                "species": "SPECIES_GEODUDE"
               },
               {
                 "min_level": 9,
@@ -3888,12 +3888,12 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_PAWNIARD"
+                "species": "SPECIES_MIENFOO"
               },
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_ARON"
               },
               {
                 "min_level": 9,
@@ -3937,7 +3937,7 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_PAWMI"
+                "species": "SPECIES_GEODUDE_ALOLA"
               },
               {
                 "min_level": 9,
@@ -3957,7 +3957,7 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_PAWNIARD"
+                "species": "SPECIES_MIENFOO"
               },
               {
                 "min_level": 9,
@@ -3967,7 +3967,7 @@
               {
                 "min_level": 9,
                 "max_level": 14,
-                "species": "SPECIES_GEODUDE_ALOLA"
+                "species": "SPECIES_ARON"
               },
               {
                 "min_level": 9,
@@ -4001,7 +4001,7 @@
               {
                 "min_level": 10,
                 "max_level": 15,
-                "species": "SPECIES_PAWNIARD"
+                "species": "SPECIES_MIENFOO"
               },
               {
                 "min_level": 10,
@@ -4070,7 +4070,7 @@
               {
                 "min_level": 10,
                 "max_level": 15,
-                "species": "SPECIES_PAWNIARD"
+                "species": "SPECIES_MIENFOO"
               },
               {
                 "min_level": 11,
