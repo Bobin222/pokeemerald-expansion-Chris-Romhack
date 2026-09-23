@@ -17440,6 +17440,7 @@ static const struct LevelUpMove sSandygastLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sPalossandLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SHORE_UP),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
@@ -17452,7 +17453,6 @@ static const struct LevelUpMove sPalossandLevelUpLearnset[] = {
     LEVEL_UP_MOVE(40, MOVE_IRON_DEFENSE),
     LEVEL_UP_MOVE(47, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE(54, MOVE_EARTH_POWER),
-    LEVEL_UP_MOVE(61, MOVE_SHORE_UP),
     LEVEL_UP_MOVE(68, MOVE_SANDSTORM),
     LEVEL_UP_END
 };

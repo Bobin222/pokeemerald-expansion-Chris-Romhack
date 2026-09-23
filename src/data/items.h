@@ -3103,7 +3103,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_COPPER] =
     {
         .name = ITEM_NAME("Relic Copper"),
-        .price = 0,
+        .price = 1000,
         .description = COMPOUND_STRING(
             "A copper coin used\n"
             "long ago. It sells\n"
@@ -3120,7 +3120,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_SILVER] =
     {
         .name = ITEM_NAME("Relic Silver"),
-        .price = 0,
+        .price = 5000,
         .description = COMPOUND_STRING(
             "A silver coin used\n"
             "long ago. It sells\n"
@@ -3154,7 +3154,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_VASE] =
     {
         .name = ITEM_NAME("Relic Vase"),
-        .price = 0,
+        .price = 5000,
         .description = COMPOUND_STRING(
             "A vase made long\n"
             "ago. It sells at\n"
@@ -3171,7 +3171,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_BAND] =
     {
         .name = ITEM_NAME("Relic Band"),
-        .price = 0,
+        .price = 10000,
         .description = COMPOUND_STRING(
             "An old bracelet.\n"
             "It sells at a\n"
@@ -3188,7 +3188,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_STATUE] =
     {
         .name = ITEM_NAME("Relic Statue"),
-        .price = 0,
+        .price = 20000,
         .description = COMPOUND_STRING(
             "An old statue.\n"
             "It sells at a\n"
@@ -3205,7 +3205,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_RELIC_CROWN] =
     {
         .name = ITEM_NAME("Relic Crown"),
-        .price = 0,
+        .price = 30000,
         .description = COMPOUND_STRING(
             "An old crown.\n"
             "It sells at a\n"
