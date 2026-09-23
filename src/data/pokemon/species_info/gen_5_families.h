@@ -6867,10 +6867,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_ZORUA_HISUI] =
     {
         .baseHP        = 35,
-        .baseAttack    = 60,
+        .baseAttack    = 85,
         .baseDefense   = 40,
         .baseSpeed     = 70,
-        .baseSpAttack  = 85,
+        .baseSpAttack  = 60,
         .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_GHOST),
         .catchRate = 75,
@@ -6934,10 +6934,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
     [SPECIES_ZOROARK_HISUI] =
     {
         .baseHP        = 55,
-        .baseAttack    = 100,
+        .baseAttack    = 125,
         .baseDefense   = 60,
         .baseSpeed     = 110,
-        .baseSpAttack  = 125,
+        .baseSpAttack  = 100,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_NORMAL, TYPE_GHOST),
         .catchRate = 45,
