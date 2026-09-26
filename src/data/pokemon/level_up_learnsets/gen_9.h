@@ -14442,6 +14442,7 @@ static const struct LevelUpMove sMandibuzzLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_TOXIC),
     LEVEL_UP_MOVE( 1, MOVE_SKY_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_POWER_TRIP),
     LEVEL_UP_MOVE( 1, MOVE_PLUCK),
     LEVEL_UP_MOVE( 1, MOVE_FLATTER),
     LEVEL_UP_MOVE(18, MOVE_TAILWIND),
@@ -18773,6 +18774,8 @@ static const struct LevelUpMove sApplinLevelUpLearnset[] = {
 
 static const struct LevelUpMove sFlappleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_WING_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_BULLET_SEED),
+    LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 1, MOVE_WITHDRAW),
@@ -18794,6 +18797,8 @@ static const struct LevelUpMove sFlappleLevelUpLearnset[] = {
 
 static const struct LevelUpMove sAppletunLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_HEADBUTT),
+    LEVEL_UP_MOVE( 1, MOVE_BULLET_SEED),
+    LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 1, MOVE_RECYCLE),
@@ -18816,6 +18821,8 @@ static const struct LevelUpMove sAppletunLevelUpLearnset[] = {
 #if P_GEN_9_CROSS_EVOS
 static const struct LevelUpMove sDipplinLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DOUBLE_HIT),
+    LEVEL_UP_MOVE( 1, MOVE_BULLET_SEED),
+    LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 1, MOVE_WITHDRAW),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
     LEVEL_UP_MOVE( 1, MOVE_RECYCLE),
@@ -18835,6 +18842,8 @@ static const struct LevelUpMove sDipplinLevelUpLearnset[] = {
 
 static const struct LevelUpMove sHydrappleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_FICKLE_BEAM),
+    LEVEL_UP_MOVE( 1, MOVE_BULLET_SEED),
+    LEVEL_UP_MOVE( 1, MOVE_TWISTER),
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_HIT),
     LEVEL_UP_MOVE( 1, MOVE_INFESTATION),
