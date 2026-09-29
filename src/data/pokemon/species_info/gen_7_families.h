@@ -4397,11 +4397,11 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
     [SPECIES_PALOSSAND] =
     {
         .baseHP        = 85,
-        .baseAttack    = 75,
+        .baseAttack    = 35,
         .baseDefense   = 110,
         .baseSpeed     = 35,
         .baseSpAttack  = 100,
-        .baseSpDefense = 75,
+        .baseSpDefense = 110,
         .types = MON_TYPES(TYPE_GHOST, TYPE_GROUND),
         .catchRate = 60,
         .expYield = 168,
