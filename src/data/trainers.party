@@ -5791,22 +5791,22 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bullet Punch
 - Bulk Up
 
-Pancham
-Level: 17
+Pawmo
+Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Power Trip
 - Bulk Up
-- Low Sweep
-- Taunt
+- Spark
+- Quick Attack
+- Arm Thrust
 
-Hitmonchan @ Sitrus Berry
-Ability: Iron Fist
+Throh @ Sitrus Berry
+Ability: Inner Focus
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up
 - Focus Energy
-- Mach Punch
-- Bullet Punch
+- Rock Blast
+- Circle Throw
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -6079,6 +6079,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Kingdra @ Leftovers
 Level: 62
+Ability: Sniper
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
 - Double Team
@@ -12495,15 +12496,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Dhelmise
-Level: 47
+Level: 60
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Veluza
-Level: 47
+Level: 60
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Gorebyss
-Level: 48
+Level: 60
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_GRUNT_UNUSED ===
@@ -14228,23 +14229,23 @@ Double Battle: No
 AI: Basic Trainer
 
 Charcadet
-Level: 28
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Pawniard
-Level: 27
+Level: 36
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cufant
-Level: 25
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Finizen
-Level: 25
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Kirlia
-Level: 29
+Gallade
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WALLY_VR_2 ===
