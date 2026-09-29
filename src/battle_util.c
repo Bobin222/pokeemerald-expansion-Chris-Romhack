@@ -3848,13 +3848,20 @@ u32 AbilityBattleEffects(enum AbilityEffect caseID, enum BattlerId battler, enum
             break;
         case ABILITY_WATER_COMPACTION:
             if (IsBattlerTurnDamaged(battler, EXCLUDING_SUBSTITUTES)
-             && IsBattlerAlive(battler)
-             && moveType == TYPE_WATER
-             && CompareStat(battler, STAT_DEF, MAX_STAT_STAGE, CMP_LESS_THAN, gLastUsedAbility))
+            && IsBattlerAlive(battler)
+            && moveType == TYPE_WATER)
             {
                 gEffectBattler = gBattlerAbility = battler;
-                SetStatChange(battler, STAT_DEF, 2);
+
+                 if (CompareStat(battler, STAT_DEF, MAX_STAT_STAGE, CMP_LESS_THAN, gLastUsedAbility))
+                    SetStatChange(battler, STAT_DEF, 2);
+
+                if (CompareStat(battler, STAT_SPDEF, MAX_STAT_STAGE, CMP_LESS_THAN, gLastUsedAbility))
+                    SetStatChange(battler, STAT_SPDEF, 2);
+
+                if (gSpecialStatuses[battler].statStageAmount > 0)
                 BattleScriptCall(BattleScript_AbilityStatChange);
+
                 effect++;
             }
             break;
