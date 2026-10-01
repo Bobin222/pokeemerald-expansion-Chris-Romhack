@@ -11394,15 +11394,15 @@ Double Battle: No
 AI: Basic Trainer
 
 Aegislash
-Level: 63
+Level: 66
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Bisharp
-Level: 63
+Level: 66
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Palafin
-Level: 64
+Level: 66
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Flip Turn
 - Jet Punch
@@ -11410,7 +11410,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Punch
 
 Copperajah
-Level: 64
+Level: 66
 Ability: Heavy Metal
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Heavy Slam
@@ -11419,11 +11419,11 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 
 Armarouge
-Level: 63
+Level: 66
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Gallade
-Level: 65
+Level: 67
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
@@ -14310,7 +14310,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Kowtow Cleave
 - Iron Head
 - Sucker Punch
-- Sword's Dance
+- Last Respects
 
 Palafin
 Level: 80
@@ -14361,7 +14361,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Kowtow Cleave
 - Iron Head
 - Sucker Punch
-- Sword's Dance
+- Last Respects
 
 Palafin
 Level: 85
@@ -14406,7 +14406,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Kowtow Cleave
 - Iron Head
 - Sucker Punch
-- Sword's Dance
+- Last Respects
 
 Palafin
 Level: 90
@@ -14460,7 +14460,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Kowtow Cleave
 - Iron Head
 - Sucker Punch
-- Sword's Dance
+- Last Respects
 
 Palafin
 Level: 95
