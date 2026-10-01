@@ -391,7 +391,7 @@ PlayersHouse_1F_Text_TicketFromBrineyCameForYou:
 	.string "It's been a while since I saw you,\n"
 	.string "but you look…stronger, somehow.\p"
 	.string "That's the impression I get.\n"
-	.string "But your old man hasn't given up yet!\p"
+	.string "But your gramps hasn't given up yet!\p"
 	.string "Oh, yes, I have something for you.\n"
 	.string "This came to you from someone named\l"
 	.string "MR. BRINEY.$"

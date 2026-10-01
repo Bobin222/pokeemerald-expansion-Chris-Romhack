@@ -4292,7 +4292,7 @@
               {
                 "min_level": 60,
                 "max_level": 65,
-                "species": "SPECIES_CENTISKORCH"
+                "species": "SPECIES_MACHOKE"
               },
               {
                 "min_level": 60,
@@ -4302,7 +4302,7 @@
               {
                 "min_level": 60,
                 "max_level": 65,
-                "species": "SPECIES_MACHOKE"
+                "species": "SPECIES_CENTISKORCH"
               },
               {
                 "min_level": 60,
@@ -4315,13 +4315,13 @@
                 "species": "SPECIES_BOUFFALANT"
               },
               {
-                "min_level": 60,
-                "max_level": 65,
+                "min_level": 66,
+                "max_level": 66,
                 "species": "SPECIES_CLODSIRE"
               },
               {
-                "min_level": 60,
-                "max_level": 65,
+                "min_level": 66,
+                "max_level": 66,
                 "species": "SPECIES_BOUFFALANT"
               }
             ]
@@ -12603,7 +12603,7 @@
               {
                 "min_level": 60,
                 "max_level": 65,
-                "species": "SPECIES_CENTISKORCH"
+                "species": "SPECIES_MACHOKE"
               },
               {
                 "min_level": 60,
@@ -12613,7 +12613,7 @@
               {
                 "min_level": 60,
                 "max_level": 65,
-                "species": "SPECIES_MACHOKE"
+                "species": "SPECIES_CENTISKORCH"
               },
               {
                 "min_level": 60,
@@ -12626,13 +12626,13 @@
                 "species": "SPECIES_MUDSDALE"
               },
               {
-                "min_level": 65,
-                "max_level": 65,
+                "min_level": 70,
+                "max_level": 70,
                 "species": "SPECIES_GOLEM_ALOLA"
               },
               {
-                "min_level": 65,
-                "max_level": 65,
+                "min_level": 70,
+                "max_level": 70,
                 "species": "SPECIES_COALOSSAL"
               }
             ]
@@ -12641,28 +12641,28 @@
             "encounter_rate": 20,
             "mons": [
               {
-                "min_level": 30,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_GRAVELER"
               },
               {
-                "min_level": 30,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_GRAVELER_ALOLA"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_DUNSPARCE"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_ORTHWORM"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 65,
+                "max_level": 65,
                 "species": "SPECIES_DUDUNSPARCE"
               }
             ]
@@ -12725,13 +12725,13 @@
                 "species": "SPECIES_DITTO"
               },
               {
-                "min_level": 65,
-                "max_level": 65,
+                "min_level": 70,
+                "max_level": 70,
                 "species": "SPECIES_GOLEM"
               },
               {
-                "min_level": 65,
-                "max_level": 65,
+                "min_level": 70,
+                "max_level": 70,
                 "species": "SPECIES_RHYPERIOR"
               }
             ]
@@ -12740,28 +12740,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_GOLBAT"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 55,
+                "max_level": 60,
                 "species": "SPECIES_CARVANHA"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_PALPITOAD"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 60,
+                "max_level": 65,
                 "species": "SPECIES_POLIWHIRL"
               },
               {
-                "min_level": 35,
-                "max_level": 40,
+                "min_level": 70,
+                "max_level": 70,
                 "species": "SPECIES_POLIWRATH"
               }
             ]

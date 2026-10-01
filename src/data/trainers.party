@@ -885,17 +885,28 @@ Double Battle: No
 AI: Basic Trainer
 
 Aegislash
-Level: 52
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Iron Head
 - Shadow Claw
+- Sacred Sword
+- King's Shield
 
 Claydol
-Level: 52
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Skill Swap
 - Earthquake
 - Explosion
+- Psychic
+
+Houndstone
+Level: 66
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Last Respects
+- Play Rough
+- Helping Hand
+- Phantom Force
 
 === TRAINER_VIOLET ===
 Name: VIOLET
@@ -1767,15 +1778,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Cacturne
-Level: 53
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Bouffalant
-Level: 53
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Lairon
-Level: 53
+Wailord
+Level: 66
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Aggron
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ALBERT ===
@@ -1788,16 +1803,16 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Magneton
-Level: 51
+Magnezone
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Muk Alola
-Level: 51
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Hawlucha
-Level: 51
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SAMUEL ===
@@ -1811,19 +1826,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Skarmory
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lanturn
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Magmar
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Exeggutor
-Level: 52
+Exeggutor Alola
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_VITO ===
@@ -1837,7 +1852,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Electrode Hisui @ Focus Sash
-Level: 63
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electric Terrain
 - Light Screen
@@ -1845,7 +1860,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Explosion
 
 Raichu Alola @ Scope Lens
-Level: 63
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Psychic
 - Thunderbolt
@@ -1853,7 +1868,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Electric Terrain
 
 Corviknight @ Life Orb
-Level: 63
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Spikes
 - Steel Wing
@@ -1861,7 +1876,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hone Claws
 
 Roserade @ Big Root
-Level: 63
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Toxic
 - Giga Drain
@@ -1870,7 +1885,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rhyperior @ Wide Lens
 Ability: Solid Rock
-Level: 64
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Earthquake
 - Megahorn
@@ -1888,15 +1903,15 @@ Double Battle: No
 AI: Basic Trainer
 
 Scolipede
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Golem
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Conkeldurr
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WILTON_2 ===
@@ -2167,11 +2182,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Rapidash
-Level: 51
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rapidash Galar
-Level: 51
+Level: 65
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ninetales
+Level: 65
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Ninetales Alola
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SHANNON ===
@@ -2185,15 +2208,15 @@ Double Battle: No
 AI: Basic Trainer
 
 Claydol
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Beheeyem
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Orbeetle
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MICHELLE ===
@@ -2206,16 +2229,16 @@ Items: Full Restore
 Double Battle: No
 AI: Basic Trainer
 
-Torkoal
-Level: 51
+Turtonator
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Medicham
-Level: 51
+Mienshao
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ludicolo
-Level: 51
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CAROLINE ===
@@ -2229,15 +2252,15 @@ Double Battle: No
 AI: Basic Trainer
 
 Excadrill
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tauros Paldea Aqua
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sigilyph
-Level: 52
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JULIE ===
@@ -2251,19 +2274,19 @@ Double Battle: No
 AI: Basic Trainer
 
 Hippowdon
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ninetales
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tropius
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cetitan
-Level: 52
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BROOKE_2 ===
@@ -2647,8 +2670,12 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Roselia @ Nugget
-Level: 45
+Starmie @ Big Nugget
+Level: 72
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Volcarona @ Big Nugget
+Level: 72
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CINDY_3 ===
@@ -3056,8 +3083,16 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move
 
-Azumarill @ Nugget
-Level: 45
+Furret @ Big Nugget
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Persian Alola @ Big Nugget
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dragonite @ Big Nugget
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WINSTON_2 ===
@@ -5358,13 +5393,18 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Manectric
-Level: 44
+Manectric @ Big Nugget
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Manectric
-Level: 44
+Arcanine @ Big Nugget
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gholdengo @ Big Nugget
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_THOMAS ===
 Name: THOMAS
@@ -5375,8 +5415,16 @@ Music: Rich
 Double Battle: No
 AI: Check Bad Move
 
-Zangoose
-Level: 45
+Mr Rime
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Arcanine
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Chandelure
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WALTER_2 ===
@@ -6533,53 +6581,29 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Skitty @ Oran Berry
-Level: 22
+Greninja @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
-Skitty @ Oran Berry
-Level: 36
+Lucario @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
-Skitty @ Oran Berry
-Level: 40
+Lickilicky @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
-Skitty @ Oran Berry
-Level: 12
+Gyarados @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
-Skitty @ Oran Berry
-Level: 30
+Arcanine @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
-Delcatty @ Oran Berry
-Level: 42
+Delcatty @ Sitrus Berry
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Assist
-- Charm
-- Feint Attack
-- Heal Bell
 
 === TRAINER_MIGUEL_2 ===
 Name: MIGUEL
@@ -7274,7 +7298,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Slaking
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Attract
 - Ice Beam
@@ -7282,7 +7306,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 
 Dusknoir
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Skill Swap
 - Protect
@@ -7300,7 +7324,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Gardevoir
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Skill Swap
 - Psychic
@@ -7308,7 +7332,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Calm Mind
 
 Slaking
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Earthquake
 - Shadow Ball
@@ -9274,17 +9298,27 @@ Items: Full Restore
 Double Battle: No
 
 Claydol
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Skill Swap
 - Earthquake
 - Explosion
+- Psychic
+
+Electrode
+Level: 65
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Electro Ball
+- Thunder Wave
+- Explosion
 
 Houndstone
-Level: 43
+Level: 66
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunderbolt
-- Earthquake
+- Last Respects
+- Play Rough
+- Helping Hand
+- Phantom Force
 
 === TRAINER_JANI ===
 Name: JANI
@@ -10875,11 +10909,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tentacruel
-Level: 44
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machoke
-Level: 44
+Conkeldurr
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LEONARD ===
@@ -10891,16 +10925,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 43
+Machamp
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Pelipper
-Level: 43
+Kilowattrel
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machoke
-Level: 43
+Overqwil
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DUNCAN ===
@@ -11802,7 +11836,7 @@ Double Battle: No
 AI: Basic Trainer
 
 Lunatone
-Level: 52
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 - Reflect
@@ -11810,7 +11844,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic
 
 Solrock
-Level: 52
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 - Reflect
@@ -11993,11 +12027,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Sableye
-Level: 52
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Mimikyu
-Level: 52
+Mawile
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GARRISON ===
@@ -13902,12 +13936,20 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc
-Level: 45
+Cloyster
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Luvdisc
-Level: 45
+Exeggutor Alola
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Milotic
+Level: 72
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados
+Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KIRA_AND_DAN_1 ===
