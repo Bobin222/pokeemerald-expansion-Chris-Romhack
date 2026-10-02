@@ -879,7 +879,7 @@
               {
                 "min_level": 4,
                 "max_level": 8,
-                "species": "SPECIES_KARRABLAST"
+                "species": "SPECIES_SIZZLIPEDE"
               },
               {
                 "min_level": 4,
@@ -1033,7 +1033,7 @@
               {
                 "min_level": 4,
                 "max_level": 8,
-                "species": "SPECIES_SHELMET"
+                "species": "SPECIES_SIZZLIPEDE"
               },
               {
                 "min_level": 4,
@@ -2149,7 +2149,7 @@
               {
                 "min_level": 19,
                 "max_level": 23,
-                "species": "SPECIES_ARON"
+                "species": "SPECIES_SHELMET"
               },
               {
                 "min_level": 19,
@@ -2218,7 +2218,7 @@
               {
                 "min_level": 19,
                 "max_level": 23,
-                "species": "SPECIES_PAWNIARD"
+                "species": "SPECIES_KARRABLAST"
               },
               {
                 "min_level": 19,
@@ -14409,7 +14409,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_HORSEA"
               },
               {
                 "min_level": 5,
@@ -14498,7 +14498,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_TENTACOOL"
+                "species": "SPECIES_HORSEA"
               },
               {
                 "min_level": 5,
