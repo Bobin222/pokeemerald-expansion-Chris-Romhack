@@ -11767,7 +11767,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .isSkyBattleBanned = B_SKY_BATTLE_STRICT_ELIGIBILITY,
         .levelUpLearnset = sRuffletLevelUpLearnset,
         .teachableLearnset = sRuffletTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_BRAVIARY, CONDITIONS({IF_TIME, TIME_DAY})}
+        .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_BRAVIARY, CONDITIONS({IF_NOT_TIME, TIME_NIGHT})}
                             #if P_HISUIAN_FORMS
                                 ,{EVO_LEVEL, 36, SPECIES_BRAVIARY_HISUI, CONDITIONS({IF_TIME, TIME_NIGHT})}
                             #endif
